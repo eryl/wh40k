@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="635e04e0-204e-2672-055e-6d081ee0fc93" revision="16" gameSystemId="e1ebd931-a209-3ce4-87b4-d9918d25530b" gameSystemRevision="0" battleScribeVersion="1.15" name="Dark Eldar: Codex (2014)" books="" authorName="BSData on GitHub" authorContact="@BSData" authorUrl="https://github.com/BSData/wh40k#warhammer-40000" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="635e04e0-204e-2672-055e-6d081ee0fc93" revision="17" gameSystemId="e1ebd931-a209-3ce4-87b4-d9918d25530b" gameSystemRevision="0" battleScribeVersion="1.15" name="Dark Eldar: Codex (2014)" books="" authorName="BSData on GitHub" authorContact="@BSData" authorUrl="https://github.com/BSData/wh40k#warhammer-40000" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <entries>
     <entry id="eb21d12e-1d75-d23b-d086-af82f107b768" name="Court of the Archon" points="0.0" categoryId="ff36a6f3-19bf-4f48-8956-adacfd28fe74" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="0" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries/>
@@ -3913,11 +3913,16 @@
             </link>
           </links>
         </entry>
-        <entry id="614772ae-b426-fff8-8a05-c715afb9cef6" name="Scythevanes" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+        <entry id="614772ae-b426-fff8-8a05-c715afb9cef6" name="Scythevanes" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries/>
           <entryGroups/>
           <modifiers/>
-          <rules/>
+          <rules>
+            <rule id="39e9-cf69-4dc1-248f" name="Scythevanes" hidden="false" book="IA: Apocalypse (2013)" page="103">
+              <description>When moving Flat Out, a single enemy unit or vehicle that the Tantalus passes over during its movement may be attacked. Against targets with a Toughness score, this attack inflicts D6 Str 7 AP 2 hits, distributed as shooting attacks. Against vehicles, a single Str 7 AP 2 hit with the Armourbane special rule is automatically inflicted and attacks the armour facing that the Tantalus approached from. In addition, any Ram attack made by the Tantalus roll an additional D6 for armour penetration.</description>
+              <modifiers/>
+            </rule>
+          </rules>
           <profiles/>
           <links/>
         </entry>
