@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="635e04e0-204e-2672-055e-6d081ee0fc93" revision="23" gameSystemId="e1ebd931-a209-3ce4-87b4-d9918d25530b" gameSystemRevision="0" battleScribeVersion="1.15" name="Dark Eldar: Codex (2014)" books="" authorName="BSData on GitHub" authorContact="@BSData" authorUrl="https://github.com/BSData/wh40k#warhammer-40000" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="635e04e0-204e-2672-055e-6d081ee0fc93" revision="30" gameSystemId="e1ebd931-a209-3ce4-87b4-d9918d25530b" gameSystemRevision="0" battleScribeVersion="1.15" name="Dark Eldar: Codex (2014)" books="Dark Eldar: Codex (2014)" authorName="BSData on GitHub" authorContact="@BSData" authorUrl="https://github.com/BSData/wh40k#warhammer-40000" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <entries>
     <entry id="eb21d12e-1d75-d23b-d086-af82f107b768" name="Court of the Archon" points="0.0" categoryId="ff36a6f3-19bf-4f48-8956-adacfd28fe74" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="0" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries/>
@@ -307,6 +307,27 @@
         </modifier>
       </modifiers>
     </link>
+    <link id="f85b-45df-8d59-c959" targetId="25dd-b264-a2b7-837e" linkType="entry" categoryId="28b94f51-e66b-4096-aa59-0c9df620a77d">
+      <modifiers/>
+    </link>
+    <link id="fa3f-4c1e-bfea-9e1f" targetId="1d25-02de-101a-f8d9" linkType="entry" categoryId="28b94f51-e66b-4096-aa59-0c9df620a77d">
+      <modifiers/>
+    </link>
+    <link id="e41e-56fe-5c94-4fc9" targetId="1d25-02de-101a-f8d9" linkType="entry" categoryId="8c73-dac2-10f4-9b50">
+      <modifiers/>
+    </link>
+    <link id="aa47-c5d1-b1f3-34a4" targetId="80ac-d97d-09f6-1cd4" linkType="entry" categoryId="8c73-dac2-10f4-9b50">
+      <modifiers/>
+    </link>
+    <link id="e2e5-bc6d-10db-d8c7" targetId="80ac-d97d-09f6-1cd4" linkType="entry" categoryId="c274d0b0-5866-44bc-9810-91c136ae7438">
+      <modifiers/>
+    </link>
+    <link id="506b-719d-2705-1fd3" targetId="8917-b846-6647-452f" linkType="entry" categoryId="8c73-dac2-10f4-9b50">
+      <modifiers/>
+    </link>
+    <link id="f9bf-b911-654d-44d6" targetId="8917-b846-6647-452f" linkType="entry" categoryId="abf5fd55-9ac7-4263-8bc1-a9fb0a8fa6a6">
+      <modifiers/>
+    </link>
   </links>
   <sharedEntries>
     <entry id="d55d275d-f0e3-8d5c-040e-4825503ca30b" name="Agoniser" points="25.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
@@ -339,13 +360,25 @@
     <entry id="5b3b28ee-e8a0-d196-45ac-d07b144c4712" name="Archon" points="60.0" categoryId="(No Category)" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="">
       <entries/>
       <entryGroups>
-        <entryGroup id="eccce310-ca49-20ae-ebc2-ecbd2788fa31" name="Armour" defaultEntryId="ccc3d186-9ae6-aeae-27c0-e5e16b3afe70" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+        <entryGroup id="eccce310-ca49-20ae-ebc2-ecbd2788fa31" name="Armour" defaultEntryId="ccc3d186-9ae6-aeae-27c0-e5e16b3afe70" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries/>
           <entryGroups/>
           <modifiers/>
           <links>
             <link id="ccc3d186-9ae6-aeae-27c0-e5e16b3afe70" targetId="96020062-5dec-9367-1e79-538f27c83dd0" linkType="entry">
-              <modifiers/>
+              <modifiers>
+                <modifier type="set" field="minSelections" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+                  <conditions/>
+                  <conditionGroups>
+                    <conditionGroup type="or">
+                      <conditions>
+                        <condition parentId="5b3b28ee-e8a0-d196-45ac-d07b144c4712" childId="a15c-d185-f93f-0e9a" field="selections" type="greater than" value="0.0"/>
+                      </conditions>
+                      <conditionGroups/>
+                    </conditionGroup>
+                  </conditionGroups>
+                </modifier>
+              </modifiers>
             </link>
           </links>
         </entryGroup>
@@ -828,7 +861,7 @@
           <modifiers>
             <modifier type="set" field="minSelections" value="1.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
               <conditions>
-                <condition parentId="category" childId="28b94f51-e66b-4096-aa59-0c9df620a77d" field="selections" type="instance of" value="0.0"/>
+                <condition parentId="direct parent" childId="bbbff194-9df1-4bc7-87d3-0fb30df5d994" field="selections" type="instance of" value="0.0"/>
               </conditions>
               <conditionGroups/>
             </modifier>
@@ -1061,10 +1094,74 @@
         </link>
       </links>
     </entry>
+    <entry id="1d25-02de-101a-f8d9" name="Formation: Blackheart Talon" points="0.0" categoryId="28b94f51-e66b-4096-aa59-0c9df620a77d" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Death from the Skies" page="136">
+      <entries/>
+      <entryGroups>
+        <entryGroup id="f0b1-ec7f-1c27-ad45" name="Razorwing Jetfighters" defaultEntryId="1e69-be25-e7ce-929d" minSelections="2" maxSelections="2" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <links>
+            <link id="1e69-be25-e7ce-929d" targetId="5fe16e24-3b9c-2c66-fcd1-0d9f086691a4" linkType="entry">
+              <modifiers>
+                <modifier type="set" field="minSelections" value="2.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+                  <conditions/>
+                  <conditionGroups/>
+                </modifier>
+                <modifier type="set" field="maxSelections" value="2.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+                  <conditions/>
+                  <conditionGroups/>
+                </modifier>
+              </modifiers>
+            </link>
+          </links>
+        </entryGroup>
+        <entryGroup id="b404-64bf-c328-8a05" name="Voidraven Bombers" defaultEntryId="0616-b57d-690e-a75d" minSelections="2" maxSelections="2" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <links>
+            <link id="0616-b57d-690e-a75d" targetId="eb483764-181e-c321-46a8-f4ef9437119b" linkType="entry">
+              <modifiers>
+                <modifier type="set" field="minSelections" value="2.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+                  <conditions/>
+                  <conditionGroups/>
+                </modifier>
+                <modifier type="set" field="maxSelections" value="2.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+                  <conditions/>
+                  <conditionGroups/>
+                </modifier>
+              </modifiers>
+            </link>
+          </links>
+        </entryGroup>
+      </entryGroups>
+      <modifiers/>
+      <rules>
+        <rule id="c079-742f-81b3-17ba" name="Wing Leader" hidden="false" book="Death from the Skies">
+          <description>One of the Voidraven Bombers must be the Wing Leader.</description>
+          <modifiers/>
+        </rule>
+        <rule id="67ff-0d67-0b78-5775" name="Close Escort" hidden="false" book="Death from the Skies">
+          <description>If the Formation is in an Attack Pattern then the Razorwing Jetfighters receive the Interceptor special rule until the start of their next turn, in addition to the other benefits that the Attack Pattern confers. In addition enemy Flyers cannot engage the Voidraven Bombers from this Formation in a dogfight if any of the Razorwing Jetfighters from this Formation are also in reserve.</description>
+          <modifiers/>
+        </rule>
+        <rule id="3833-3a3e-768c-0963" name="Priority Target" hidden="false" book="Death from the Skies">
+          <description>After deployment is complete, pick one enemy unit as the Priority Target for this Formation. All of the Flyers from this Formation have the Preferred Enemy special rule when they attack the Priority Target.</description>
+          <modifiers/>
+        </rule>
+      </rules>
+      <profiles/>
+      <links>
+        <link id="8c5c-4b72-80e9-58cc" targetId="2754-ffe0-8528-f2de" linkType="rule">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
     <entry id="bbbff194-9df1-4bc7-87d3-0fb30df5d994" name="Formation: Kabalite Raiding Party" points="0.0" categoryId="(No Category)" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries/>
       <entryGroups>
-        <entryGroup id="b3ce2605-0fb8-cccc-19ff-77e88176ba96" name="Arhon" defaultEntryId="50d9a88e-d439-6d82-c6ec-64acd229759c" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+        <entryGroup id="b3ce2605-0fb8-cccc-19ff-77e88176ba96" name="Archon" defaultEntryId="50d9a88e-d439-6d82-c6ec-64acd229759c" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries/>
           <entryGroups/>
           <modifiers/>
@@ -1159,6 +1256,62 @@
           <modifiers/>
         </link>
         <link id="13ef2ef5-4f5e-12d3-f7f8-1cdd7140fa80" targetId="854ee896-7946-7259-c2ad-483a482d4e44" linkType="rule">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
+    <entry id="25dd-b264-a2b7-837e" name="Formation: Purge Coterie" points="0.0" categoryId="(No Category)" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups>
+        <entryGroup id="078a-e43c-3455-a1ea" name="Archon" defaultEntryId="65d4-a7c9-474e-c50a" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <links>
+            <link id="65d4-a7c9-474e-c50a" targetId="5b3b28ee-e8a0-d196-45ac-d07b144c4712" linkType="entry">
+              <modifiers/>
+            </link>
+          </links>
+        </entryGroup>
+        <entryGroup id="3be5-e5c1-88fb-6744" name="Reavers" defaultEntryId="9875-18a4-5f94-411f" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <links>
+            <link id="9875-18a4-5f94-411f" targetId="5f906016-1d30-7424-444b-c347f752e913" linkType="entry">
+              <modifiers/>
+            </link>
+          </links>
+        </entryGroup>
+        <entryGroup id="bc4a-124c-49f3-3393" name="Raider" defaultEntryId="66da-2afa-e01f-5934" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <links>
+            <link id="66da-2afa-e01f-5934" targetId="2b26266b-185f-2928-00dc-a2a37402d61c" linkType="entry">
+              <modifiers/>
+            </link>
+          </links>
+        </entryGroup>
+        <entryGroup id="0145-2997-12af-9877" name="Kabalite Unit" defaultEntryId="6106-4169-ba21-6419" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <links>
+            <link id="6106-4169-ba21-6419" targetId="775786c3-a7e0-95c5-996b-96a0cc7c8408" linkType="entry">
+              <modifiers/>
+            </link>
+            <link id="af5d-4667-654e-c8e1" targetId="a79ae54e-65f3-1fef-5573-cfd087189d5e" linkType="entry">
+              <modifiers/>
+            </link>
+          </links>
+        </entryGroup>
+      </entryGroups>
+      <modifiers/>
+      <rules/>
+      <profiles/>
+      <links>
+        <link id="657e-668f-1319-6888" targetId="c8f9-9650-3363-75a7" linkType="rule">
           <modifiers/>
         </link>
       </links>
@@ -1839,7 +1992,7 @@
           <modifiers>
             <modifier type="set" field="minSelections" value="1.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
               <conditions>
-                <condition parentId="category" childId="28b94f51-e66b-4096-aa59-0c9df620a77d" field="selections" type="instance of" value="0.0"/>
+                <condition parentId="direct parent" childId="bbbff194-9df1-4bc7-87d3-0fb30df5d994" field="selections" type="instance of" value="0.0"/>
               </conditions>
               <conditionGroups/>
             </modifier>
@@ -2066,7 +2219,7 @@
           <modifiers>
             <modifier type="set" field="minSelections" value="1.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
               <conditions>
-                <condition parentId="category" childId="28b94f51-e66b-4096-aa59-0c9df620a77d" field="selections" type="instance of" value="0.0"/>
+                <condition parentId="direct parent" childId="fa41ab81-6358-c413-cbe6-34a002720f57" field="selections" type="instance of" value="0.0"/>
               </conditions>
               <conditionGroups/>
             </modifier>
@@ -2300,7 +2453,7 @@
           <modifiers>
             <modifier type="set" field="minSelections" value="1.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
               <conditions>
-                <condition parentId="category" childId="28b94f51-e66b-4096-aa59-0c9df620a77d" field="selections" type="instance of" value="0.0"/>
+                <condition parentId="direct parent" childId="bbbff194-9df1-4bc7-87d3-0fb30df5d994" field="selections" type="instance of" value="0.0"/>
               </conditions>
               <conditionGroups/>
             </modifier>
@@ -2829,19 +2982,23 @@
           <description>When entering play via Deep Strike, if it does so within 12&quot; of an enemy Flyer or Skimmer, its controlling player may re-roll the Scatter dice to determine where it arrives.</description>
           <modifiers/>
         </rule>
+        <rule id="2b02-b842-8565-80c7" name="Strike-fighter Skyfire mode" hidden="false" book="https://www.forgeworld.co.uk/resources/fw_site/fw_pdfs/Warhammer_40000/Death-from-the-Skies.pdf">
+          <description>Zooming Flyers with the Strike-fighter Combat Role may choose to enter Skyfire mode at the beginning of each Shooting phase. If they enter Skyfire mode then all weapons fired from that Flyer in that Shooting phase gain the Skyfire special rule.</description>
+          <modifiers/>
+        </rule>
       </rules>
       <profiles>
         <profile id="ea1c-d775-fe1b-cb04" profileTypeId="3a08-ea03-a598-8615" name="Raven Strike Fighter" hidden="false" book="IA: Aeronautica (2012)" page="69">
           <characteristics>
-            <characteristic characteristicId="9878-e3f6-b7b4-7225" name="BS"/>
+            <characteristic characteristicId="9878-e3f6-b7b4-7225" name="BS" value="4"/>
             <characteristic characteristicId="3a4e-bc1d-4a12-7176" name="Front" value="10"/>
             <characteristic characteristicId="d12e-7bdb-191c-4849" name="Side" value="10"/>
             <characteristic characteristicId="a4cb-791a-6a75-4e4a" name="Rear" value="10"/>
             <characteristic characteristicId="93e6-d4b1-28a8-944b" name="HP" value="2"/>
             <characteristic characteristicId="eb65-838c-8eaa-8b5d" name="Type" value="Flyer"/>
-            <characteristic characteristicId="d477-c087-173f-9f1c" name="Combat Role" value="N/A"/>
-            <characteristic characteristicId="e04d-332e-8b52-0071" name="Pursuit" value="N/A"/>
-            <characteristic characteristicId="ae34-f5c0-19af-4883" name="Agility" value="N/A"/>
+            <characteristic characteristicId="d477-c087-173f-9f1c" name="Combat Role" value="Strike Fighter"/>
+            <characteristic characteristicId="e04d-332e-8b52-0071" name="Pursuit" value="5"/>
+            <characteristic characteristicId="ae34-f5c0-19af-4883" name="Agility" value="4"/>
           </characteristics>
           <modifiers/>
         </profile>
@@ -2860,6 +3017,9 @@
           <modifiers/>
         </link>
         <link id="54a0-0b47-2ece-fa75" targetId="302a-4621-5e54-1d84" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="a7eb-9913-ec44-9888" targetId="f097-74ed-2c08-a3c5" linkType="rule">
           <modifiers/>
         </link>
       </links>
@@ -2993,6 +3153,29 @@
           <modifiers/>
         </link>
         <link id="7137-d20c-cef6-08cb" targetId="0136-7ceb-cd9b-d226" linkType="entry">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
+    <entry id="80ac-d97d-09f6-1cd4" name="Razorwing Jetfighter Wing" points="0.0" categoryId="(No Category)" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Death from the Skies">
+      <entries/>
+      <entryGroups>
+        <entryGroup id="5f8f-8392-983d-b24d" name="Razorwings (2 - 4)" defaultEntryId="35fc-47e4-3820-ed33" minSelections="2" maxSelections="4" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <links>
+            <link id="35fc-47e4-3820-ed33" targetId="5fe16e24-3b9c-2c66-fcd1-0d9f086691a4" linkType="entry">
+              <modifiers/>
+            </link>
+          </links>
+        </entryGroup>
+      </entryGroups>
+      <modifiers/>
+      <rules/>
+      <profiles/>
+      <links>
+        <link id="a72d-6d33-4dac-7f32" targetId="2754-ffe0-8528-f2de" linkType="rule">
           <modifiers/>
         </link>
       </links>
@@ -3539,7 +3722,12 @@
                       </modifiers>
                       <links>
                         <link id="d40f273d-d5a3-b333-3f13-f99bde18f544" targetId="d55d275d-f0e3-8d5c-040e-4825503ca30b" linkType="entry">
-                          <modifiers/>
+                          <modifiers>
+                            <modifier type="set" field="points" value="15.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+                              <conditions/>
+                              <conditionGroups/>
+                            </modifier>
+                          </modifiers>
                         </link>
                       </links>
                     </entryGroup>
@@ -4188,6 +4376,21 @@
         </link>
       </links>
     </entry>
+    <entry id="a15c-d185-f93f-0e9a" name="The Armour of Misery" points="15.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles>
+        <profile id="1ea3-d2af-ab4d-a3c6" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" name="The Armour of Misery" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="The Armour of Misery confers a 4+ Armour Save, a 6+ invulnerable save and the Fear special rule. All enemy units within 6&quot; of the bearer suffer a -2 Leadership penalty."/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links/>
+    </entry>
     <entry id="0531-06d8-d779-1f80" name="The Djin Blade" points="30.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries/>
       <entryGroups/>
@@ -4521,6 +4724,29 @@
           <modifiers/>
         </link>
         <link id="49ec-3852-2a8e-8ec2" targetId="0136-7ceb-cd9b-d226" linkType="entry">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
+    <entry id="8917-b846-6647-452f" name="Voidraven Bomber Wing" points="0.0" categoryId="(No Category)" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Death from the Skies">
+      <entries/>
+      <entryGroups>
+        <entryGroup id="3db4-d16e-d170-66fc" name="Voidravens (2 - 4)" defaultEntryId="23dc-16fb-7ad0-6b14" minSelections="2" maxSelections="4" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <links>
+            <link id="23dc-16fb-7ad0-6b14" targetId="eb483764-181e-c321-46a8-f4ef9437119b" linkType="entry">
+              <modifiers/>
+            </link>
+          </links>
+        </entryGroup>
+      </entryGroups>
+      <modifiers/>
+      <rules/>
+      <profiles/>
+      <links>
+        <link id="e7aa-9a2f-3cc0-dc95" targetId="2754-ffe0-8528-f2de" linkType="rule">
           <modifiers/>
         </link>
       </links>
@@ -5244,21 +5470,6 @@
     </entryGroup>
     <entryGroup id="65b2e53b-2f3d-c487-dfee-17deeef4e4a6" name="Artefacts of Cruelty" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries>
-        <entry id="1eb9bd54-5cd6-96e1-c7cd-72dd5bfafd90" name="The Armour of Misery" points="15.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-          <entries/>
-          <entryGroups/>
-          <modifiers/>
-          <rules/>
-          <profiles>
-            <profile id="718910db-4d22-b7b8-04d9-2cf3d79a4797" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" name="The Armour of Misery" hidden="false">
-              <characteristics>
-                <characteristic characteristicId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="The Armour of Misery confers a 4+ Armour Save, a 6+ invulnerable save and the Fear special rule. All enemy units within 6&quot; of the bearer suffer a -2 Leadership penalty."/>
-              </characteristics>
-              <modifiers/>
-            </profile>
-          </profiles>
-          <links/>
-        </entry>
         <entry id="0c3f96b3-e00d-308a-af98-3caf1633a4c8" name="The Animus Vitae" points="20.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries/>
           <entryGroups/>
@@ -5312,6 +5523,9 @@
           <modifiers/>
         </link>
         <link id="d806-4b54-b50e-0a47" targetId="0531-06d8-d779-1f80" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="510b-ae52-ecfd-70d6" targetId="a15c-d185-f93f-0e9a" linkType="entry">
           <modifiers/>
         </link>
       </links>
@@ -5520,6 +5734,11 @@ from. This is cumulative with the Agonising and/or Master of Pain special rules.
       <description>Models fighting with a razorflail re-roll all failed To Hit rolls in close combat. </description>
       <modifiers/>
     </rule>
+    <rule id="f097-74ed-2c08-a3c5" name="Break Turns" hidden="false" book="https://www.forgeworld.co.uk/resources/fw_site/fw_pdfs/Warhammer_40000/Death-from-the-Skies.pdf">
+      <description>Zooming Flyers with the Strike-fighter, Air Leviathan or Utility Craft Combat Roles may not make Break Turns.
+</description>
+      <modifiers/>
+    </rule>
     <rule id="93152e90-4e6e-849b-64a9-8a00921ad937" name="Bulky" hidden="false" book="BRB 2014" page="159">
       <description>Bulky models count as two models for the purposes of Transport Capacity.</description>
       <modifiers/>
@@ -5642,6 +5861,10 @@ A Hit &amp; Run move is not slowed by difficult terrain, but takes Dangerous Ter
       <description>Any To Wound roll of a 6 inflicted by this weapon has the Instant Death special rule. </description>
       <modifiers/>
     </rule>
+    <rule id="c8f9-9650-3363-75a7" name="Marked for Death" hidden="false">
+      <description>Such is the power at their disposal that, with but a simple gesture, an Archon can order the swift demise of those that displease them. At the start of each friendly turn, pick an enemy unit within line of sight of the Archon. All other units from the Purge Coterie have the Preferred Enemy special rule agains the unit you picked until the start of the next turn. </description>
+      <modifiers/>
+    </rule>
     <rule id="e8af8066-2b98-a452-ee06-6635177c04ee" name="Master of Blades" hidden="false" book="Codex: Dark Eldar 2014">
       <description>Drazhar can only join friendly units of Incubi. Whilst Drazhar is part of an Incubi unit, all Incubus and Klaivex models in the unit add 1 to their Weapon Skill. </description>
       <modifiers/>
@@ -5755,6 +5978,16 @@ A Hit &amp; Run move is not slowed by difficult terrain, but takes Dangerous Ter
     </rule>
     <rule id="35e69364-cf41-1e95-ed7b-08956457f582" name="Warlord Trait: Towering Arrogance" hidden="false">
       <description>The Warlord, and all friendly units with the Dark Eldar Faction within 12&quot; of the Warlord, have the Fearless special rule.</description>
+      <modifiers/>
+    </rule>
+    <rule id="2754-ffe0-8528-f2de" name="Wing Leader (Dark Eldar)" hidden="false" book="Death from the Skies" page="80">
+      <description>Wing Leaders are free upgrades for Flyers. One model in each Flyer Wing can be upgraded to a Wing Leader at no additional points cost. At the start of any game, immediately after determining your Warlord Trait, roll on the Wing Leader table relevant to their Faction for each Wing Leader to determine their special rule.
+
+1-2 Bloodthirsty Hunter: Add 1 to the Wing Leader’s Pursuit value. Add an additional 1 when making Engagement rolls for the Wing Leader in a Dogfight.
+
+3-4 Arrogant Perfectionist: You can re-roll one dice roll for the Wing Leader each turn.
+
+5-6 Selfish Leader: You can add 1 to this Wing Leader’s Ballistic Skill if they attack before the other Flyers in their Wing (there must still be at least one other Flyer from the Flyer Wing on the battlefield). </description>
       <modifiers/>
     </rule>
   </sharedRules>

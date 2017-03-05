@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="555e-9663-fc05-f0db" revision="9" gameSystemId="e1ebd931-a209-3ce4-87b4-d9918d25530b" gameSystemRevision="0" battleScribeVersion="1.15" name="Eldar Craftworlds: Codex (2015)" books="Codex: Eldar Craftworlds (2015), Imperial Armour 11: Second Edition (2015), Death From the Skies (2016)" authorName="Eric Falsken" authorContact="eric@everylittlething.net" authorUrl="https://github.com/BSData/wh40k#warhammer-40000" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="555e-9663-fc05-f0db" revision="17" gameSystemId="e1ebd931-a209-3ce4-87b4-d9918d25530b" gameSystemRevision="0" battleScribeVersion="1.15" name="Eldar Craftworlds: Codex (2015)" books="Codex: Eldar Craftworlds (2015), Imperial Armour 11: Second Edition (2015), Death From the Skies (2016)" authorName="Eric Falsken" authorContact="eric@everylittlething.net" authorUrl="https://github.com/BSData/wh40k#warhammer-40000" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <entries>
     <entry id="419f-ef62-cf8c-0546" name="Command Benefits (Craftworlds Warhost)" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="true">
       <entries/>
@@ -18,6 +18,28 @@
           <modifiers/>
         </rule>
       </rules>
+      <profiles/>
+      <links/>
+    </entry>
+    <entry id="4a68-44fa-6633-884d" name="Crimson Hunter" points="0.0" categoryId="c274d0b0-5866-44bc-9810-91c136ae7438" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups>
+        <entryGroup id="beee-2513-7165-6ba6" name="Hunter" defaultEntryId="a4cb-110a-091e-66e3" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <links>
+            <link id="a4cb-110a-091e-66e3" targetId="e9b1-097d-16ab-d2a3" linkType="entry">
+              <modifiers/>
+            </link>
+            <link id="9c6e-2b01-a49c-f39a" targetId="c16d-8c79-80b2-75ff" linkType="entry">
+              <modifiers/>
+            </link>
+          </links>
+        </entryGroup>
+      </entryGroups>
+      <modifiers/>
+      <rules/>
       <profiles/>
       <links/>
     </entry>
@@ -116,7 +138,7 @@
     <link id="fccc-4e48-7b1b-c7b3" targetId="bc01-daa0-b610-0ec2" linkType="entry" categoryId="c274d0b0-5866-44bc-9810-91c136ae7438">
       <modifiers/>
     </link>
-    <link id="7d51-5efc-7a05-2402" targetId="f9ba-9cb2-9028-54b1" linkType="entry" categoryId="c274d0b0-5866-44bc-9810-91c136ae7438">
+    <link id="7d51-5efc-7a05-2402" targetId="ee6c-7b23-6648-dc61" linkType="entry" categoryId="c274d0b0-5866-44bc-9810-91c136ae7438">
       <modifiers/>
     </link>
     <link id="5b56-ef5d-1f1c-ad29" targetId="189b-6717-365d-4afe" linkType="entry" categoryId="abf5fd55-9ac7-4263-8bc1-a9fb0a8fa6a6">
@@ -378,9 +400,6 @@
     <link id="0378-ff6a-8975-1090" targetId="1ac1-ceda-dee4-00dc" linkType="entry" categoryId="28b94f51-e66b-4096-aa59-0c9df620a77d">
       <modifiers/>
     </link>
-    <link id="bcfc-5ce2-bdd7-f744" targetId="bb7e-f7c0-8016-97d8" linkType="entry" categoryId="c274d0b0-5866-44bc-9810-91c136ae7438">
-      <modifiers/>
-    </link>
     <link id="c4e3-bae9-f243-1d99" targetId="bb7e-f7c0-8016-97d8" linkType="entry" categoryId="8c73-dac2-10f4-9b50">
       <modifiers/>
     </link>
@@ -391,6 +410,15 @@
       <modifiers/>
     </link>
     <link id="a8e3-e3db-0068-8105" targetId="45f2-33b4-0390-d32f" linkType="entry" categoryId="8c73-dac2-10f4-9b50">
+      <modifiers/>
+    </link>
+    <link id="9be5-49a7-8647-0550" targetId="6610-75e5-7637-d9cb" linkType="entry" categoryId="28b94f51-e66b-4096-aa59-0c9df620a77d">
+      <modifiers/>
+    </link>
+    <link id="9fad-f769-5cb3-8d2a" targetId="f9ba-9cb2-9028-54b1" linkType="entry" categoryId="c274d0b0-5866-44bc-9810-91c136ae7438">
+      <modifiers/>
+    </link>
+    <link id="b46e-7ca0-5b77-82fc" targetId="bb7e-f7c0-8016-97d8" linkType="entry" categoryId="c274d0b0-5866-44bc-9810-91c136ae7438">
       <modifiers/>
     </link>
   </links>
@@ -649,7 +677,14 @@
           <links/>
         </entryGroup>
       </entryGroups>
-      <modifiers/>
+      <modifiers>
+        <modifier type="set" field="minSelections" value="1.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+          <conditions>
+            <condition parentId="category" childId="adbc-b3ab-ce9c-9e30" field="selections" type="at least" value="1.0"/>
+          </conditions>
+          <conditionGroups/>
+        </modifier>
+      </modifiers>
       <rules>
         <rule id="e76c-bed6-18c7-0d11" name="Aspect Lord-shrine" hidden="false" book="Imperial Armour 11: Second Edition (2015)" page="141">
           <description>The Battlehost must include three Aspect Warrior units from a single Aspect (this may not include Crimson Hunters, and must be the same Aspect across all Pale Courts Battlehosts in this army), and is required to field 0-3 Guardian units. No Dire Avenger Shrine Formations may be included as part of this Detachment, unless the chosen Aspect is that of the Dire Avengers.</description>
@@ -1631,7 +1666,14 @@
     <entry id="b59c-d0bf-457b-3a43" name="Children of Khaine" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="">
       <entries/>
       <entryGroups/>
-      <modifiers/>
+      <modifiers>
+        <modifier type="set" field="minSelections" value="1.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+          <conditions>
+            <condition parentId="category" childId="b59c-d0bf-457b-3a43" field="selections" type="at least" value="1.0"/>
+          </conditions>
+          <conditionGroups/>
+        </modifier>
+      </modifiers>
       <rules>
         <rule id="6056-3191-d372-c0c2" name="Children of Khaine" hidden="false" book="Imperial Armour 11: Second Edition (2015)" page="178">
           <description>All Guardian Defender squads must be replaced with Storm Guardian squads. In addition, all Storm Guardian models that score a 6 on any To Hit roll in the first turn of any assault gain +1 to their Strength when resolving that attack.</description>
@@ -1905,7 +1947,7 @@
         </link>
       </links>
     </entry>
-    <entry id="c16d-8c79-80b2-75ff" name="Crimson Hunter Exarch" points="140.0" categoryId="(No Category)" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Codex: Eldar Craftworlds (2015)" page="126">
+    <entry id="c16d-8c79-80b2-75ff" name="Crimson Hunter Exarch" points="140.0" categoryId="(No Category)" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Codex: Eldar Craftworlds (2015)" page="126">
       <entries>
         <entry id="7bea-e7db-6990-e45d" name="Exarch" points="20.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries/>
@@ -2008,7 +2050,7 @@
     <entry id="bb7e-f7c0-8016-97d8" name="Crimson Hunters" points="0.0" categoryId="(No Category)" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Death From the Skies (2016)">
       <entries/>
       <entryGroups>
-        <entryGroup id="1b5b-0dde-28c2-9bcd" name="Wing Members - up to 4" defaultEntryId="3167-4915-2aec-cdb6" minSelections="1" maxSelections="4" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+        <entryGroup id="1b5b-0dde-28c2-9bcd" name="Wing Members - 2 to 4" defaultEntryId="3167-4915-2aec-cdb6" minSelections="2" maxSelections="4" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries/>
           <entryGroups/>
           <modifiers/>
@@ -2039,7 +2081,14 @@
     <entry id="c405-2527-e5e4-fb30" name="Crossroads of Eternity" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Imperial Armour 11: Second Edition (2015)" page="141">
       <entries/>
       <entryGroups/>
-      <modifiers/>
+      <modifiers>
+        <modifier type="set" field="minSelections" value="1.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+          <conditions>
+            <condition parentId="category" childId="c405-2527-e5e4-fb30" field="selections" type="at least" value="1.0"/>
+          </conditions>
+          <conditionGroups/>
+        </modifier>
+      </modifiers>
       <rules>
         <rule id="8a05-f819-3777-6186" name="Crossroads of Eternity" hidden="false" book="Imperial Armour 11: Second Edition (2015)" page="141">
           <description>The Battlehost may include 0-1 Harlequin Troupe (see Codex: Harlequins) and/or 0-1 Corsair Reaver Bands (see Corsairs). These units are treated as having the Faction: Eldar for the duration of the game.
@@ -3332,7 +3381,14 @@
           </links>
         </entryGroup>
       </entryGroups>
-      <modifiers/>
+      <modifiers>
+        <modifier type="set" field="minSelections" value="1.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+          <conditions>
+            <condition parentId="category" childId="35ca-55e0-5493-e216" field="selections" type="at least" value="1.0"/>
+          </conditions>
+          <conditionGroups/>
+        </modifier>
+      </modifiers>
       <rules>
         <rule id="3ab9-e911-8ebf-5bc8" name="Disciples of Vaul" hidden="false" book="Imperial Armour 11: Second Edition (2015)" page="141">
           <description>The Battlehost must include 1-3 Vaul&apos;s Wrath Support Batteries. All Guardian Defender units in the Battlehost may take one Heavy Weapons Platform per 5 Guardians in the unit, paying the normal cost for the additional weapons.</description>
@@ -5245,7 +5301,14 @@
           </links>
         </entryGroup>
       </entryGroups>
-      <modifiers/>
+      <modifiers>
+        <modifier type="set" field="minSelections" value="1.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+          <conditions>
+            <condition parentId="category" childId="de73-85df-c3fe-ec66" field="selections" type="at least" value="1.0"/>
+          </conditions>
+          <conditionGroups/>
+        </modifier>
+      </modifiers>
       <rules>
         <rule id="92dc-b503-1b0e-db72" name="Fortress of Discipline" hidden="false" book="Imperial Armour 11: Second Edition (2015)" page="141">
           <description>The Battlehost must inlcude 1-3 units of War Walkers or a single unit of Wasp Assault Walkers. When a unit of War Walkers or Wasp Assault Walkers chosen as part of this Formation fires at an enemy unit already targeted by an Eldar Guardian unit, from the same Formation in that Shooting phase, it gains the Pinning special rule for that attack.</description>
@@ -5514,7 +5577,14 @@
           </links>
         </entryGroup>
       </entryGroups>
-      <modifiers/>
+      <modifiers>
+        <modifier type="set" field="minSelections" value="1.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+          <conditions>
+            <condition parentId="category" childId="c1ce-169a-e65d-b585" field="selections" type="at least" value="1.0"/>
+          </conditions>
+          <conditionGroups/>
+        </modifier>
+      </modifiers>
       <rules>
         <rule id="d88b-e802-0d9d-7a46" name="Graveyard of Dreams" hidden="false" book="Imperial Armour 11: Second Edition (2015)" page="141">
           <description>The Battlehost must include three Wraithblade units, and is required to field only 0-3 Guardian units. All Wraithblade units bought as part of this Detachment gain the Crusader special rule.</description>
@@ -6457,7 +6527,14 @@
     <entry id="5c65-a715-ee8e-b471" name="Halls of Martial Splendour" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries/>
       <entryGroups/>
-      <modifiers/>
+      <modifiers>
+        <modifier type="set" field="minSelections" value="1.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+          <conditions>
+            <condition parentId="category" childId="5c65-a715-ee8e-b471" field="selections" type="at least" value="1.0"/>
+          </conditions>
+          <conditionGroups/>
+        </modifier>
+      </modifiers>
       <rules>
         <rule id="2886-11f0-1936-76c1" name="Halls of Martial Splendour" hidden="false" book="Imperial Armour 11: Second Edition (2015)" page="141">
           <description>The Battlehost must replace the Farseer with an Autarch. When fighting in a Challenge, an Autarch from this Formation may re-roll any missed To Hit rolls.</description>
@@ -6596,7 +6673,7 @@
     <entry id="f9ba-9cb2-9028-54b1" name="Hemlock Wraithfighters" points="0.0" categoryId="(No Category)" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Death From the Skies (2016)">
       <entries/>
       <entryGroups>
-        <entryGroup id="9579-9e59-e638-f0fd" name="Wing Members" defaultEntryId="39fe-9aae-bfcd-9991" minSelections="1" maxSelections="4" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+        <entryGroup id="9579-9e59-e638-f0fd" name="Wing Members - 2 to 4" defaultEntryId="39fe-9aae-bfcd-9991" minSelections="2" maxSelections="4" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries/>
           <entryGroups/>
           <modifiers/>
@@ -6610,7 +6687,11 @@
       <modifiers/>
       <rules/>
       <profiles/>
-      <links/>
+      <links>
+        <link id="4f88-3b60-b713-238b" targetId="0afa-6d7d-3afb-0f01" linkType="rule">
+          <modifiers/>
+        </link>
+      </links>
     </entry>
     <entry id="9161-4a1e-20a3-7af5" name="Heroes of the Craftworlds" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Codex: Eldar Craftworlds (2015)" page="94">
       <entries/>
@@ -6935,15 +7016,201 @@
     <entry id="4161-e029-1703-1556" name="Hornet Swarm [FW]" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Imperial Armour 11: Second Edition (2015)" page="182">
       <entries/>
       <entryGroups>
-        <entryGroup id="ad7b-a430-a612-9b74" name="Squadrons - 3 to 6, with all same upgrades" defaultEntryId="5996-71a7-97ea-aff1" minSelections="3" maxSelections="6" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-          <entries/>
+        <entryGroup id="baf5-851b-ba9d-5697" name="Squadron Members - 3 to 6" defaultEntryId="3363-78e4-f770-3b5c" minSelections="3" maxSelections="6" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries>
+            <entry id="3363-78e4-f770-3b5c" name="Hornet" points="70.0" categoryId="(No Category)" type="model" minSelections="3" maxSelections="6" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="true" hidden="false">
+              <entries>
+                <entry id="3a1f-a72b-07a2-03a7" name="Star Engines" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="true" hidden="false">
+                  <entries/>
+                  <entryGroups/>
+                  <modifiers/>
+                  <rules/>
+                  <profiles/>
+                  <links>
+                    <link id="79cc-3af9-1dfe-0795" targetId="8669-a743-a9c7-345f" linkType="profile">
+                      <modifiers/>
+                    </link>
+                  </links>
+                </entry>
+              </entries>
+              <entryGroups>
+                <entryGroup id="2963-ba56-7d79-f9a0" name="Weapons - 2 required" defaultEntryId="8fe0-dd5d-e1f0-4344" minSelections="2" maxSelections="2" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+                  <entries>
+                    <entry id="8fe0-dd5d-e1f0-4344" name="Shuriken Cannon" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="2" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="true" hidden="false">
+                      <entries/>
+                      <entryGroups/>
+                      <modifiers/>
+                      <rules/>
+                      <profiles/>
+                      <links>
+                        <link id="5e3e-6cf4-bffb-a796" targetId="c208-d493-2195-7587" linkType="profile">
+                          <modifiers/>
+                        </link>
+                        <link id="b155-7ec8-0b1a-7001" targetId="ce57-25dd-7d75-6574" linkType="rule">
+                          <modifiers/>
+                        </link>
+                      </links>
+                    </entry>
+                    <entry id="eeb5-6e84-e2c4-1829" name="Scatter Laser" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="2" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="true" hidden="false">
+                      <entries/>
+                      <entryGroups/>
+                      <modifiers/>
+                      <rules/>
+                      <profiles/>
+                      <links>
+                        <link id="10e7-63ff-6dc9-4f90" targetId="20df-1398-62ba-3600" linkType="profile">
+                          <modifiers/>
+                        </link>
+                      </links>
+                    </entry>
+                    <entry id="0223-9aff-33bd-e433" name="Starcannon" points="5.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="2" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="true" hidden="false">
+                      <entries/>
+                      <entryGroups/>
+                      <modifiers/>
+                      <rules/>
+                      <profiles/>
+                      <links>
+                        <link id="552b-504d-ccdb-cfa6" targetId="0fc6-d1be-3c70-ffdb" linkType="profile">
+                          <modifiers/>
+                        </link>
+                      </links>
+                    </entry>
+                    <entry id="947e-8891-dd1a-e1c3" name="Eldar Missile Launcher (Plasma &amp; Starshot Missiles)" points="15.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="2" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="true" hidden="false">
+                      <entries/>
+                      <entryGroups/>
+                      <modifiers/>
+                      <rules/>
+                      <profiles/>
+                      <links>
+                        <link id="e530-74bd-069e-f7ca" targetId="87c2-b0d7-fcfe-f010" linkType="profile">
+                          <modifiers/>
+                        </link>
+                        <link id="5612-256a-0d33-0e95" targetId="9a25-bea9-9d17-9862" linkType="profile">
+                          <modifiers/>
+                        </link>
+                      </links>
+                    </entry>
+                    <entry id="b26a-6ef7-776f-e899" name="Bright Lance" points="5.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="2" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="true" hidden="false">
+                      <entries/>
+                      <entryGroups/>
+                      <modifiers/>
+                      <rules/>
+                      <profiles/>
+                      <links>
+                        <link id="72aa-3bd7-f5e7-3766" targetId="c3d3-1bd6-b338-a698" linkType="profile">
+                          <modifiers/>
+                        </link>
+                        <link id="a29d-3cff-1474-e1ec" targetId="8bbe-1da9-89ac-34d5" linkType="rule">
+                          <modifiers/>
+                        </link>
+                      </links>
+                    </entry>
+                    <entry id="949c-a2e3-c069-e7ba" name="Pulse Laser" points="5.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="2" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="true" hidden="false">
+                      <entries/>
+                      <entryGroups/>
+                      <modifiers/>
+                      <rules/>
+                      <profiles/>
+                      <links>
+                        <link id="99c7-bf3e-ffec-b3a2" targetId="9b44-0188-3db4-067f" linkType="profile">
+                          <modifiers/>
+                        </link>
+                      </links>
+                    </entry>
+                  </entries>
+                  <entryGroups/>
+                  <modifiers/>
+                  <links/>
+                </entryGroup>
+                <entryGroup id="e940-9a15-85a6-400b" name="Eldar Vehicle Equipment" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+                  <entries>
+                    <entry id="693d-5e8e-3feb-f313" name="Ghostwalk Matrix" points="10.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="true" hidden="false">
+                      <entries/>
+                      <entryGroups/>
+                      <modifiers/>
+                      <rules/>
+                      <profiles/>
+                      <links>
+                        <link id="45b0-4f24-76ba-6a6e" targetId="5ec4-34cd-86ab-296f" linkType="profile">
+                          <modifiers/>
+                        </link>
+                      </links>
+                    </entry>
+                    <entry id="9679-b037-cf84-cd65" name="Spirit Stones" points="10.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="true" hidden="false">
+                      <entries/>
+                      <entryGroups/>
+                      <modifiers/>
+                      <rules/>
+                      <profiles/>
+                      <links>
+                        <link id="cbf5-d4ac-a402-881f" targetId="eaff-e101-2094-e5f2" linkType="profile">
+                          <modifiers/>
+                        </link>
+                      </links>
+                    </entry>
+                    <entry id="0157-7e0f-79ad-5557" name="Holo-fields" points="15.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="true" hidden="false">
+                      <entries/>
+                      <entryGroups/>
+                      <modifiers/>
+                      <rules/>
+                      <profiles/>
+                      <links>
+                        <link id="99f0-e133-3cd7-1c90" targetId="1ab8-31f6-2817-ceda" linkType="profile">
+                          <modifiers/>
+                        </link>
+                      </links>
+                    </entry>
+                    <entry id="eeaf-6d31-cc6d-b92b" name="Vectored Engines" points="15.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="true" hidden="false">
+                      <entries/>
+                      <entryGroups/>
+                      <modifiers/>
+                      <rules/>
+                      <profiles/>
+                      <links>
+                        <link id="1c98-861f-b4fa-2cdd" targetId="b266-e82f-7269-81a1" linkType="profile">
+                          <modifiers/>
+                        </link>
+                      </links>
+                    </entry>
+                    <entry id="e194-99fa-fa11-e3cb" name="Crystal Targeting Matrix" points="25.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="true" hidden="false">
+                      <entries/>
+                      <entryGroups/>
+                      <modifiers/>
+                      <rules/>
+                      <profiles/>
+                      <links>
+                        <link id="9b6f-ae5e-f83a-84c4" targetId="382f-ad57-c20c-fe4c" linkType="profile">
+                          <modifiers/>
+                        </link>
+                      </links>
+                    </entry>
+                  </entries>
+                  <entryGroups/>
+                  <modifiers/>
+                  <links/>
+                </entryGroup>
+              </entryGroups>
+              <modifiers/>
+              <rules/>
+              <profiles>
+                <profile id="faa6-e448-ad81-aa52" profileTypeId="725a358c-765b-498c-8de5-399fc0c0725f" name="Hornet" hidden="false" book="Imperial Armour 11: Second Edition (2015)" page="192">
+                  <characteristics>
+                    <characteristic characteristicId="f6f92f00-8bb1-4afa-8ccb-46310b7dd5e5" name="BS" value="4"/>
+                    <characteristic characteristicId="8cdd4fef-d1ba-4007-992c-b6f93e86d43f" name="Front" value="11"/>
+                    <characteristic characteristicId="5f9a3780-eecb-4c70-be1d-e5bd06b06e9e" name="Side" value="11"/>
+                    <characteristic characteristicId="0a9f33cb-0412-420a-89d2-20707c360bd2" name="Rear" value="10"/>
+                    <characteristic characteristicId="ae95a1af-719f-4365-b951-33cd3ca9148a" name="HP" value="2"/>
+                    <characteristic characteristicId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" name="Type" value="Vehicle (Fast Skimmer)"/>
+                  </characteristics>
+                  <modifiers/>
+                </profile>
+              </profiles>
+              <links/>
+            </entry>
+          </entries>
           <entryGroups/>
           <modifiers/>
-          <links>
-            <link id="5996-71a7-97ea-aff1" targetId="f82e-d862-f5a6-3c8e" linkType="entry">
-              <modifiers/>
-            </link>
-          </links>
+          <links/>
         </entryGroup>
       </entryGroups>
       <modifiers/>
@@ -6962,7 +7229,17 @@
         </rule>
       </rules>
       <profiles/>
-      <links/>
+      <links>
+        <link id="6258-b581-2da7-c28b" targetId="2aa527e2-c420-4192-80f6-deedf1106c06" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="b359-b54e-f0d9-2fb9" targetId="b20ebf11-a2eb-6694-e80c-39ae279fc9a3" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="dbfa-92c8-62ed-457d" targetId="4193-5515-9c29-945e" linkType="rule">
+          <modifiers/>
+        </link>
+      </links>
     </entry>
     <entry id="04c0-ee24-2842-1475" name="Howling Banshees" points="0.0" categoryId="(No Category)" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Codex: Eldar Craftworlds (2015)" page="117">
       <entries/>
@@ -8212,9 +8489,9 @@ The Controlling player may choose to have a Lynx deployed on the table at the be
             <characteristic characteristicId="a4cb-791a-6a75-4e4a" name="Rear" value="11"/>
             <characteristic characteristicId="93e6-d4b1-28a8-944b" name="HP" value="5"/>
             <characteristic characteristicId="eb65-838c-8eaa-8b5d" name="Type" value="Vehicle (Flyer, Hover)"/>
-            <characteristic characteristicId="d477-c087-173f-9f1c" name="Combat Role" value="N/A"/>
-            <characteristic characteristicId="e04d-332e-8b52-0071" name="Pursuit" value="N/A"/>
-            <characteristic characteristicId="ae34-f5c0-19af-4883" name="Agility" value="N/A"/>
+            <characteristic characteristicId="d477-c087-173f-9f1c" name="Combat Role" value="Attack Flyer (see Lynx Combat Role)"/>
+            <characteristic characteristicId="e04d-332e-8b52-0071" name="Pursuit" value="2"/>
+            <characteristic characteristicId="ae34-f5c0-19af-4883" name="Agility" value="1"/>
           </characteristics>
           <modifiers/>
         </profile>
@@ -8227,6 +8504,9 @@ The Controlling player may choose to have a Lynx deployed on the table at the be
           <modifiers/>
         </link>
         <link id="1106-3e03-914c-a2da" targetId="4e7b-ba68-4a42-df94" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="a5be-438c-5cee-7dc9" targetId="90ff-9913-4c10-7758" linkType="rule">
           <modifiers/>
         </link>
       </links>
@@ -8705,9 +8985,9 @@ Instead of firing their heavy D-Scythes normally, the formation may place a blas
                     <characteristic characteristicId="a4cb-791a-6a75-4e4a" name="Rear" value="10"/>
                     <characteristic characteristicId="93e6-d4b1-28a8-944b" name="HP" value="2"/>
                     <characteristic characteristicId="eb65-838c-8eaa-8b5d" name="Type" value="Vehicle (Flyer)"/>
-                    <characteristic characteristicId="d477-c087-173f-9f1c" name="Combat Role" value="N/A"/>
-                    <characteristic characteristicId="e04d-332e-8b52-0071" name="Pursuit" value="N/A"/>
-                    <characteristic characteristicId="ae34-f5c0-19af-4883" name="Agility" value="N/A"/>
+                    <characteristic characteristicId="d477-c087-173f-9f1c" name="Combat Role" value="Interceptor"/>
+                    <characteristic characteristicId="e04d-332e-8b52-0071" name="Pursuit" value="5"/>
+                    <characteristic characteristicId="ae34-f5c0-19af-4883" name="Agility" value="5"/>
                   </characteristics>
                   <modifiers/>
                 </profile>
@@ -8759,7 +9039,14 @@ Instead of firing their heavy D-Scythes normally, the formation may place a blas
           </links>
         </entryGroup>
       </entryGroups>
-      <modifiers/>
+      <modifiers>
+        <modifier type="set" field="minSelections" value="1.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+          <conditions>
+            <condition parentId="category" childId="9525-9d32-6d67-7698" field="selections" type="at least" value="1.0"/>
+          </conditions>
+          <conditionGroups/>
+        </modifier>
+      </modifiers>
       <rules>
         <rule id="24ba-eca4-622e-f07f" name="On Lonely Paths" hidden="false" book="Imperial Armour 11: Second Edition (2015)" page="141">
           <description>The Battlehost must include 1-3 units of Eldar Rangers. While within 12&quot; of an Eldar Rangers unit from this Battlehost, all Guardian units that are a part of the Battlehost gain the Move Through Cover special rule.</description>
@@ -8791,7 +9078,7 @@ Instead of firing their heavy D-Scythes normally, the formation may place a blas
     <entry id="1bd4-140a-7f5c-f180" name="Pale Courts Battlehost [FW]" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="true" hidden="false" book="Imperial Armour 11: Second Edition (2015)" page="178">
       <entries/>
       <entryGroups>
-        <entryGroup id="58f3-d495-f2f8-80ae" name="Forgotten Remnants - up to 2 - must be same for all Pale Courts in this Detachment" minSelections="0" maxSelections="2" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="true" hidden="false">
+        <entryGroup id="58f3-d495-f2f8-80ae" name="Forgotten Remnants - up to 2 - must be same for all Pale Courts in this Detachment" minSelections="0" maxSelections="2" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries/>
           <entryGroups/>
           <modifiers/>
@@ -9238,9 +9525,9 @@ Instead of firing their heavy D-Scythes normally, the formation may place a blas
                     <characteristic characteristicId="a4cb-791a-6a75-4e4a" name="Rear" value="10"/>
                     <characteristic characteristicId="93e6-d4b1-28a8-944b" name="HP" value="3"/>
                     <characteristic characteristicId="eb65-838c-8eaa-8b5d" name="Type" value="Vehicle (Flyer)"/>
-                    <characteristic characteristicId="d477-c087-173f-9f1c" name="Combat Role" value="N/A"/>
-                    <characteristic characteristicId="e04d-332e-8b52-0071" name="Pursuit" value="N/A"/>
-                    <characteristic characteristicId="ae34-f5c0-19af-4883" name="Agility" value="N/A"/>
+                    <characteristic characteristicId="d477-c087-173f-9f1c" name="Combat Role" value="Strike-fighter"/>
+                    <characteristic characteristicId="e04d-332e-8b52-0071" name="Pursuit" value="5"/>
+                    <characteristic characteristicId="ae34-f5c0-19af-4883" name="Agility" value="4"/>
                   </characteristics>
                   <modifiers/>
                 </profile>
@@ -9604,6 +9891,50 @@ Instead of firing their heavy D-Scythes normally, the formation may place a blas
           <modifiers/>
         </link>
       </links>
+    </entry>
+    <entry id="6610-75e5-7637-d9cb" name="Runeweaver Host" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Start Collecting - Eldar">
+      <entries/>
+      <entryGroups>
+        <entryGroup id="3f7e-c8fb-818d-6f56" name="Farseer Skyrunner - 1 required" defaultEntryId="25d5-abd0-f237-d91f" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <links>
+            <link id="25d5-abd0-f237-d91f" targetId="1a67-1c2b-96bf-4b52" linkType="entry">
+              <modifiers/>
+            </link>
+          </links>
+        </entryGroup>
+        <entryGroup id="9724-266f-9a68-dcc3" name="Windriders - 1 required" defaultEntryId="50b6-71a7-3d60-c424" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <links>
+            <link id="50b6-71a7-3d60-c424" targetId="5926-905e-64dd-70c2" linkType="entry">
+              <modifiers/>
+            </link>
+          </links>
+        </entryGroup>
+        <entryGroup id="aa3a-971d-623e-3848" name="Fire Prism - 1 required" defaultEntryId="96cf-d318-537d-401b" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <links>
+            <link id="96cf-d318-537d-401b" targetId="0735-8ea8-07fc-7537" linkType="entry">
+              <modifiers/>
+            </link>
+          </links>
+        </entryGroup>
+      </entryGroups>
+      <modifiers/>
+      <rules>
+        <rule id="1b19-f417-93f5-3c77" name="Weaver of Runes" hidden="false" book="Start Collecting - Eldar">
+          <description>By focusing his will upon an enemy threat, the Farseer guides the destructive beam of his accompanying Fire Prism with unerring accuracy. The Fire Prism&apos;s weapons all have the Twin-Linked special rule when targeting an enemy unit that the Runeweaver Host&apos;s Farseer has line of sight to.</description>
+          <modifiers/>
+        </rule>
+      </rules>
+      <profiles/>
+      <links/>
     </entry>
     <entry id="b009-5add-1bdb-dc53" name="Scorpion [FW]" points="650.0" categoryId="(No Category)" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Imperial Armour 11: Second Edition (2015)" page="198">
       <entries>
@@ -10927,7 +11258,11 @@ Instead of firing their heavy D-Scythes normally, the formation may place a blas
         </rule>
       </rules>
       <profiles/>
-      <links/>
+      <links>
+        <link id="b4bb-3221-44f0-b47f" targetId="0afa-6d7d-3afb-0f01" linkType="rule">
+          <modifiers/>
+        </link>
+      </links>
     </entry>
     <entry id="688e-92d3-ffb8-2247" name="Skathach Wraithknight [FW]" points="315.0" categoryId="(No Category)" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Imperial Armour 11: Second Edition (2015)" page="216">
       <entries>
@@ -11151,12 +11486,7 @@ Instead of firing their heavy D-Scythes normally, the formation may place a blas
           <modifiers/>
           <links>
             <link id="5e10-e9f8-3fe9-81e9" targetId="4753-0ad3-2715-408a" linkType="entry">
-              <modifiers>
-                <modifier type="set" field="minSelections" value="1.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
-                  <conditions/>
-                  <conditionGroups/>
-                </modifier>
-              </modifiers>
+              <modifiers/>
             </link>
             <link id="fe2b-48cb-da51-cd70" targetId="623f-0a83-272b-d418" linkType="entry">
               <modifiers/>
@@ -12299,7 +12629,14 @@ Instead of firing their heavy D-Scythes normally, the formation may place a blas
           </links>
         </entryGroup>
       </entryGroups>
-      <modifiers/>
+      <modifiers>
+        <modifier type="set" field="minSelections" value="1.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+          <conditions>
+            <condition parentId="category" childId="5771-6a51-d978-ebe9" field="selections" type="at least" value="1.0"/>
+          </conditions>
+          <conditionGroups/>
+        </modifier>
+      </modifiers>
       <rules>
         <rule id="4ae3-8291-3e6c-e278" name="Swift to Anger" hidden="false" book="Imperial Armour 11: Second Edition (2015)" page="141">
           <description>The Battlehost must include 1-3 units of Vyper Jetbikes or a single unit of Hornet Attack Skimmers. Any units of Vyper Jetbikes or Hornet Attack Skimmers in this Formation gain the Outflank special rule and may re-roll failed Reserves rolls.</description>
@@ -13096,7 +13433,14 @@ Instead of firing their heavy D-Scythes normally, the formation may place a blas
           </links>
         </entryGroup>
       </entryGroups>
-      <modifiers/>
+      <modifiers>
+        <modifier type="set" field="minSelections" value="1.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+          <conditions>
+            <condition parentId="category" childId="1de2-9f59-b7c4-986d" field="selections" type="at least" value="1.0"/>
+          </conditions>
+          <conditionGroups/>
+        </modifier>
+      </modifiers>
       <rules>
         <rule id="0cf5-4ff1-99d6-43d0" name="The Strong Stand Alone" hidden="false" book="Imperial Armour 11: Second Edition (2015)" page="141">
           <description>The Battlehost may include a single sqadron of Night Spinner, Fire Prism or Warp Hunter grav-tanks. This army may contain no other Detachments with the Eldar, Dark Eldar, Harlequin, or Eldar Corsairs Factions, save more Pale Courts Warhosts of an identical configuration.</description>
@@ -13120,7 +13464,14 @@ Instead of firing their heavy D-Scythes normally, the formation may place a blas
           </links>
         </entryGroup>
       </entryGroups>
-      <modifiers/>
+      <modifiers>
+        <modifier type="set" field="minSelections" value="1.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+          <conditions>
+            <condition parentId="category" childId="aae6-d642-2180-326d" field="selections" type="at least" value="1.0"/>
+          </conditions>
+          <conditionGroups/>
+        </modifier>
+      </modifiers>
       <rules>
         <rule id="79d8-d22c-391f-b3e1" name="Tomb-ship of Fallen Heroes" hidden="false" book="Imperial Armour 11: Second Edition (2015)" page="141">
           <description>The Battlehost must replace the Farseer with a Spiritseer or a Wraithseer, and may include 0-1 Wraithlord. If a Wraithlord or Wraithseer is chosen as the army&apos;s Warlord then two D6 are rolled to determine its Warlord Trait and the controlling player may select which result to use.</description>
@@ -13213,9 +13564,9 @@ Instead of firing their heavy D-Scythes normally, the formation may place a blas
             <characteristic characteristicId="a4cb-791a-6a75-4e4a" name="Rear" value="11"/>
             <characteristic characteristicId="93e6-d4b1-28a8-944b" name="HP" value="12"/>
             <characteristic characteristicId="eb65-838c-8eaa-8b5d" name="Type" value="Super-heavy Flyer (Hover)"/>
-            <characteristic characteristicId="d477-c087-173f-9f1c" name="Combat Role" value="N/A"/>
-            <characteristic characteristicId="e04d-332e-8b52-0071" name="Pursuit" value="N/A"/>
-            <characteristic characteristicId="ae34-f5c0-19af-4883" name="Agility" value="N/A"/>
+            <characteristic characteristicId="d477-c087-173f-9f1c" name="Combat Role" value="Air Leviathan"/>
+            <characteristic characteristicId="e04d-332e-8b52-0071" name="Pursuit" value="4"/>
+            <characteristic characteristicId="ae34-f5c0-19af-4883" name="Agility" value="3"/>
           </characteristics>
           <modifiers/>
         </profile>
@@ -17440,6 +17791,10 @@ D6 - Result
       <description>When a weapon with this special rule targets a Zooming Flyer or Fast Skimmer, it gains the Ignores Cover special rule for that attack.</description>
       <modifiers/>
     </rule>
+    <rule id="90ff-9913-4c10-7758" name="Lynx Combat Role" hidden="false" book="FW Death from the Skies update">
+      <description>Can be targetted in the Dogfight phase, but do not count towards Air Superiority. Do not gain the bonuses of Agility, Pursuit or Combat roles in Hover mode.</description>
+      <modifiers/>
+    </rule>
     <rule id="d422-aa34-6a70-fe52" name="Master-crafted" hidden="false" book="40k Rulebook">
       <modifiers/>
     </rule>
@@ -17655,7 +18010,7 @@ D6     Result
 6         The Eye of She Who Thirsts: The psyker gains the attention of Slaanesh. For the remainder of the game, whenever this model is called upon to take a Psychic test, the controlling player must roll on the Wild Psyker Perils of the Warp table if any doubles are rolled. A model already affected by this result must re-roll any results of 6 on this table.</description>
       <modifiers/>
     </rule>
-    <rule id="0afa-6d7d-3afb-0f01" name="Wing Leader (Eldar)" hidden="false" book="Death From the Skies (2016)">
+    <rule id="0afa-6d7d-3afb-0f01" name="Wing Leader (Eldar)" hidden="false" book="Death From the Skies (2016)" page="80">
       <description>One model in each wing can be upgraded, for free, to a Wing Leader. If the Wing contains an Exarch, this model must be the Wing Leader. Roll a D6:
 
 1-2 Path of the Skylord: Add 1 to the Wing Leader&apos;s Agility value. Add an addidional 1 to the Wing Leader&apos;s Agility value during the Dogfight pase.

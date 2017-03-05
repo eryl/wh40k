@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="9b32-f1cf-7ad4-9ca1" revision="60" gameSystemId="e1ebd931-a209-3ce4-87b4-d9918d25530b" gameSystemRevision="17" battleScribeVersion="1.15" name="Chaos - Khorne Daemonkin" authorName="BSData Team" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="9b32-f1cf-7ad4-9ca1" revision="64" gameSystemId="e1ebd931-a209-3ce4-87b4-d9918d25530b" gameSystemRevision="17" battleScribeVersion="1.15" name="Chaos - Khorne Daemonkin" authorName="BSData Team" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <entries>
     <entry id="09fd-7e29-0ff2-82d5" name="Blood Tithe reference table" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries/>
@@ -118,9 +118,6 @@ Tithe Costs/Bonus
       <modifiers/>
     </link>
     <link id="fd5a-d63a-d7b9-4d7f" targetId="e654-a74a-083b-bd8f" linkType="entry" categoryId="c274d0b0-5866-44bc-9810-91c136ae7438">
-      <modifiers/>
-    </link>
-    <link id="f5c9-12b6-a539-56ed" targetId="5069-fdef-f6c7-93f2" linkType="entry" categoryId="c274d0b0-5866-44bc-9810-91c136ae7438">
       <modifiers/>
     </link>
     <link id="afbd-8a85-e8eb-f25a" targetId="01c2-e9dd-2b0c-c8ac" linkType="entry" categoryId="ef2b-83bd-1bad-5742">
@@ -1120,7 +1117,7 @@ Hull Point is still lost.</description>
                   <characteristics>
                     <characteristic characteristicId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" name="Range" value="24&quot;"/>
                     <characteristic characteristicId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45" name="Strength" value="5"/>
-                    <characteristic characteristicId="6abee736-f8d3-498e-97ac-a5c68445609f" name="AP" value=""/>
+                    <characteristic characteristicId="6abee736-f8d3-498e-97ac-a5c68445609f" name="AP" value="5"/>
                     <characteristic characteristicId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" name="Type" value="Ordnance 1, Large Blast (5&quot;), Rending"/>
                   </characteristics>
                   <modifiers/>
@@ -4159,7 +4156,7 @@ Heat Blast (Fire Sweep): If the controlling player wishes, any unit the model pa
         <entryGroup id="6ae1-178c-0125-8f99" name="Terminator Weapons" minSelections="0" maxSelections="0" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries/>
           <entryGroups>
-            <entryGroup id="9ea4-4056-3206-e31a" name="Power Weapon Arm" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+            <entryGroup id="9ea4-4056-3206-e31a" name="Power Weapon Arm" defaultEntryId="bc59-813b-d7a5-cc43" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
               <entries>
                 <entry id="7639-a3fc-68ec-a8f3" name="Lightning Claw" points="5.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
                   <entries/>
@@ -4224,6 +4221,112 @@ Heat Blast (Fire Sweep): If the controlling player wishes, any unit the model pa
                 </link>
               </links>
             </entryGroup>
+            <entryGroup id="0735-4a13-14a6-f495" name="Combi-Bolter Arm" defaultEntryId="6c12-f35d-3895-d73b" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+              <entries>
+                <entry id="8adf-7fbd-65dc-54d3" name="Power Fist" points="22.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+                  <entries/>
+                  <entryGroups/>
+                  <modifiers/>
+                  <rules/>
+                  <profiles/>
+                  <links>
+                    <link id="e406-b32c-1a93-4855" targetId="4fe0-cbc4-186b-8bc9" linkType="profile">
+                      <modifiers/>
+                    </link>
+                  </links>
+                </entry>
+                <entry id="f99f-1abe-a7fb-7789" name="Lightning Claw" points="17.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+                  <entries/>
+                  <entryGroups/>
+                  <modifiers/>
+                  <rules/>
+                  <profiles/>
+                  <links>
+                    <link id="97c2-99d1-7f68-82c7" targetId="b3c2-f522-7e3f-898d" linkType="profile">
+                      <modifiers/>
+                    </link>
+                  </links>
+                </entry>
+                <entry id="376e-975d-90ee-2f8e" name="Chainfist" points="27.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+                  <entries/>
+                  <entryGroups/>
+                  <modifiers/>
+                  <rules/>
+                  <profiles/>
+                  <links>
+                    <link id="6aca-a2b7-f9c7-9ab4" targetId="d79a-3922-5f84-1049" linkType="profile">
+                      <modifiers/>
+                    </link>
+                  </links>
+                </entry>
+                <entry id="6c12-f35d-3895-d73b" name="Combi-Bolter" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+                  <entries/>
+                  <entryGroups/>
+                  <modifiers/>
+                  <rules/>
+                  <profiles/>
+                  <links>
+                    <link id="4295-7b5a-b92e-0f4e" targetId="b3ce-b553-64df-66f4" linkType="profile">
+                      <modifiers/>
+                    </link>
+                  </links>
+                </entry>
+              </entries>
+              <entryGroups>
+                <entryGroup id="c7f2-a885-bf88-fc10" name="Power Weapon" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+                  <entries>
+                    <entry id="2ed5-a861-4bf8-49e1" name="Power Axe" points="12.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+                      <entries/>
+                      <entryGroups/>
+                      <modifiers/>
+                      <rules/>
+                      <profiles/>
+                      <links>
+                        <link id="b267-9175-e00a-eef8" targetId="47e3-ee8f-cd91-14dc" linkType="profile">
+                          <modifiers/>
+                        </link>
+                      </links>
+                    </entry>
+                    <entry id="8cc8-d981-f232-988a" name="Power Maul" points="12.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+                      <entries/>
+                      <entryGroups/>
+                      <modifiers/>
+                      <rules/>
+                      <profiles/>
+                      <links>
+                        <link id="f535-fae4-64d3-0dba" targetId="a9e6-488e-f0c2-aad5" linkType="profile">
+                          <modifiers/>
+                        </link>
+                      </links>
+                    </entry>
+                    <entry id="9fbc-c326-6747-ddeb" name="Power Sword" points="12.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+                      <entries/>
+                      <entryGroups/>
+                      <modifiers/>
+                      <rules/>
+                      <profiles/>
+                      <links>
+                        <link id="267c-f8df-4f3a-318a" targetId="0fce-8608-6edd-9606" linkType="profile">
+                          <modifiers/>
+                        </link>
+                      </links>
+                    </entry>
+                  </entries>
+                  <entryGroups/>
+                  <modifiers/>
+                  <links/>
+                </entryGroup>
+              </entryGroups>
+              <modifiers/>
+              <links>
+                <link id="b40e-9dab-a30a-0612" targetId="1b7f-4c12-ee09-1161" linkType="entry group">
+                  <modifiers/>
+                </link>
+                <link id="af68-6ae0-df16-ac83" targetId="322f-893a-bc3c-bca3" linkType="entry group">
+                  <modifiers/>
+                </link>
+              </links>
+            </entryGroup>
           </entryGroups>
           <modifiers>
             <modifier type="set" field="minSelections" value="2.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
@@ -4245,11 +4348,7 @@ Heat Blast (Fire Sweep): If the controlling player wishes, any unit the model pa
               <conditionGroups/>
             </modifier>
           </modifiers>
-          <links>
-            <link id="fd36-68ea-44e3-5989" targetId="4186-7542-b042-da47" linkType="entry group">
-              <modifiers/>
-            </link>
-          </links>
+          <links/>
         </entryGroup>
       </entryGroups>
       <modifiers/>
@@ -6890,7 +6989,7 @@ The Kharybdis is then placed as close to the initial landing location as safely 
             <characteristic characteristicId="5f9a3780-eecb-4c70-be1d-e5bd06b06e9e" name="Side" value="12"/>
             <characteristic characteristicId="0a9f33cb-0412-420a-89d2-20707c360bd2" name="Rear" value="10"/>
             <characteristic characteristicId="a558b3ef-04d0-440e-a312-bac3255bf592" name="I" value="4"/>
-            <characteristic characteristicId="5dff3e7c-e024-4030-a71d-03195ec06ea7" name="A" value="2"/>
+            <characteristic characteristicId="5dff3e7c-e024-4030-a71d-03195ec06ea7" name="A" value="4"/>
             <characteristic characteristicId="ae95a1af-719f-4365-b951-33cd3ca9148a" name="HP" value="3"/>
             <characteristic characteristicId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" name="Type" value="Vehicle (Walker)"/>
           </characteristics>
@@ -7008,6 +7107,9 @@ The Kharybdis is then placed as close to the initial landing location as safely 
       <profiles/>
       <links>
         <link id="fa80-8bb9-c22f-a5ce" targetId="c573-9539-c944-eca6" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="dab9-c17a-6a2f-9cb6" targetId="d77c-99a9-fb03-0467" linkType="rule">
           <modifiers/>
         </link>
       </links>
@@ -9635,7 +9737,7 @@ Once per game at the start of the enemies psychic phase, you can declare that yo
         </link>
       </links>
     </entryGroup>
-    <entryGroup id="4206-3563-298f-0f82" name="Terminator Melee Arm" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+    <entryGroup id="4206-3563-298f-0f82" name="Terminator Melee Arm" defaultEntryId="f104-d23f-2fc3-2b6f" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries>
         <entry id="f4f8-edac-fcbe-55c9" name="Chainfist" points="12.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries/>
@@ -9678,97 +9780,6 @@ Once per game at the start of the enemies psychic phase, you can declare that yo
       <modifiers/>
       <links>
         <link id="f104-d23f-2fc3-2b6f" targetId="395d-ec6c-3086-c2d1" linkType="entry group">
-          <modifiers/>
-        </link>
-      </links>
-    </entryGroup>
-    <entryGroup id="4186-7542-b042-da47" name="Terminator Ranged Arm" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-      <entries>
-        <entry id="21de-1bd2-094d-e57c" name="Power Fist" points="22.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-          <entries/>
-          <entryGroups/>
-          <modifiers/>
-          <rules/>
-          <profiles/>
-          <links>
-            <link id="b262-45f6-6c30-986a" targetId="4fe0-cbc4-186b-8bc9" linkType="profile">
-              <modifiers/>
-            </link>
-          </links>
-        </entry>
-        <entry id="46dc-6154-557c-7335" name="Lightning Claw" points="17.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-          <entries/>
-          <entryGroups/>
-          <modifiers/>
-          <rules/>
-          <profiles/>
-          <links>
-            <link id="992e-7ef2-b967-bfd7" targetId="b3c2-f522-7e3f-898d" linkType="profile">
-              <modifiers/>
-            </link>
-          </links>
-        </entry>
-        <entry id="2d72-5d24-a00e-3917" name="Chainfist" points="27.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-          <entries/>
-          <entryGroups/>
-          <modifiers/>
-          <rules/>
-          <profiles/>
-          <links>
-            <link id="8876-a748-67fa-d30b" targetId="d79a-3922-5f84-1049" linkType="profile">
-              <modifiers/>
-            </link>
-          </links>
-        </entry>
-      </entries>
-      <entryGroups>
-        <entryGroup id="6593-5169-904b-b0d6" name="Power Weapon" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-          <entries>
-            <entry id="6685-168a-65fc-8f87" name="Power Axe" points="12.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-              <entries/>
-              <entryGroups/>
-              <modifiers/>
-              <rules/>
-              <profiles/>
-              <links>
-                <link id="7793-dc03-4695-5d84" targetId="47e3-ee8f-cd91-14dc" linkType="profile">
-                  <modifiers/>
-                </link>
-              </links>
-            </entry>
-            <entry id="f27d-a4e3-335f-cd5a" name="Power Maul" points="12.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-              <entries/>
-              <entryGroups/>
-              <modifiers/>
-              <rules/>
-              <profiles/>
-              <links>
-                <link id="acd5-5660-94cc-2a40" targetId="a9e6-488e-f0c2-aad5" linkType="profile">
-                  <modifiers/>
-                </link>
-              </links>
-            </entry>
-            <entry id="3bd3-8791-664f-dd14" name="Power Sword" points="12.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-              <entries/>
-              <entryGroups/>
-              <modifiers/>
-              <rules/>
-              <profiles/>
-              <links>
-                <link id="a555-219c-7980-8da0" targetId="0fce-8608-6edd-9606" linkType="profile">
-                  <modifiers/>
-                </link>
-              </links>
-            </entry>
-          </entries>
-          <entryGroups/>
-          <modifiers/>
-          <links/>
-        </entryGroup>
-      </entryGroups>
-      <modifiers/>
-      <links>
-        <link id="6c0c-d1bb-eb6b-218e" targetId="1b7f-4c12-ee09-1161" linkType="entry group">
           <modifiers/>
         </link>
       </links>
@@ -9947,6 +9958,16 @@ A model that made a Vector Strike in its Movement phase counts as having already
       <modifiers/>
     </rule>
     <rule id="6978-3631-00c4-e8d2" name="Warlord Trait: Favoured of Khorne" hidden="false">
+      <modifiers/>
+    </rule>
+    <rule id="d77c-99a9-fb03-0467" name="Wing Leader (Heldrake)" hidden="false" book="Death from the Skies" page="81">
+      <description>Wing Leaders are free upgrades for Flyers. One model in each Flyer Wing can be upgraded to a Wing Leader at no additional points cost. At the start of any game, immediately after determining your Warlord Trait, roll on the Wing Leader table relevant to their Faction for each Wing Leader to determine their special rule.
+
+1-2 Warp Fury: The Wing Leader can use the Daemonforge special rule every turn, rather than only once per battle.
+
+3-4 Fuelled by Murder: If an attack this Wing Leader makes causes an enemy model to be removed as a casualty, its weapons have the Twin-linked special rule in its next Shooting phase.
+
+5-6 Icon of Slaughter: Add 1 to the Pursuit value for the Wing Leader and all other models from its Flyer Wing during the Dogfight phase.</description>
       <modifiers/>
     </rule>
   </sharedRules>

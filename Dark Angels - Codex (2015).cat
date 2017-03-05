@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="578f-d512-a02e-7d0b" revision="40" gameSystemId="e1ebd931-a209-3ce4-87b4-d9918d25530b" gameSystemRevision="0" battleScribeVersion="1.15" name="Dark Angels: Codex (2015)" books="Dark Angels Codex 2015, 7th Edition" authorName="Thairne" authorContact="Interrogatorchaplain@gmx.de" authorUrl="http://battlescribedata.appspot.com/#/repo/wh40k" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="578f-d512-a02e-7d0b" revision="50" gameSystemId="e1ebd931-a209-3ce4-87b4-d9918d25530b" gameSystemRevision="0" battleScribeVersion="1.15" name="Dark Angels: Codex (2015)" books="Dark Angels Codex 2015, 7th Edition" authorName="Thairne" authorContact="Interrogatorchaplain@gmx.de" authorUrl="http://battlescribedata.appspot.com/#/repo/wh40k" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <entries>
     <entry id="8d97-d552-b1a5-2b59" name="10th Company Support" points="0.0" categoryId="ef2b-83bd-1bad-5742" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries/>
@@ -740,22 +740,6 @@
     <link id="a533-cf02-30e7-341b" targetId="28c5-7f04-b2f0-d772" linkType="entry" categoryId="abf5fd55-9ac7-4263-8bc1-a9fb0a8fa6a6">
       <modifiers/>
     </link>
-    <link id="392f-0205-440d-34ad" targetId="f1af-1871-c212-95aa" linkType="rule">
-      <modifiers>
-        <modifier type="show" field="name" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
-          <conditions/>
-          <conditionGroups>
-            <conditionGroup type="and">
-              <conditions>
-                <condition parentId="force type" childId="4c51-9346-df15-f554" field="selections" type="instance of" value="0.0"/>
-                <condition parentId="force type" childId="ddf6d097-b9cd-9a14-2ed7-97fb5ea30c8c" field="selections" type="equal to" value="1.0"/>
-              </conditions>
-              <conditionGroups/>
-            </conditionGroup>
-          </conditionGroups>
-        </modifier>
-      </modifiers>
-    </link>
     <link id="6289-fc81-71ea-9394" targetId="5ec3-7139-7eeb-af3a" linkType="entry">
       <modifiers/>
     </link>
@@ -763,6 +747,27 @@
       <modifiers/>
     </link>
     <link id="6b5a-26d7-81d6-9cee" targetId="f17d-2de0-9d81-978a" linkType="entry" categoryId="abf5fd55-9ac7-4263-8bc1-a9fb0a8fa6a6">
+      <modifiers/>
+    </link>
+    <link id="b286-ab1d-6568-485d" targetId="aedf-7e8d-6c0b-6836" linkType="entry" categoryId="8c73-dac2-10f4-9b50">
+      <modifiers/>
+    </link>
+    <link id="9c5e-1f81-0122-3e3b" targetId="d05a-fa3a-278f-87d3" linkType="entry" categoryId="8c73-dac2-10f4-9b50">
+      <modifiers/>
+    </link>
+    <link id="fa5f-414f-352f-454f" targetId="cdda-9364-36a6-ffa9" linkType="entry" categoryId="28b94f51-e66b-4096-aa59-0c9df620a77d">
+      <modifiers/>
+    </link>
+    <link id="a16e-6976-5b18-f4bf" targetId="d05a-fa3a-278f-87d3" linkType="entry" categoryId="c274d0b0-5866-44bc-9810-91c136ae7438">
+      <modifiers/>
+    </link>
+    <link id="112d-366f-1ff4-2ae1" targetId="aedf-7e8d-6c0b-6836" linkType="entry" categoryId="c274d0b0-5866-44bc-9810-91c136ae7438">
+      <modifiers/>
+    </link>
+    <link id="486e-e383-43db-95df" targetId="cdda-9364-36a6-ffa9" linkType="entry" categoryId="8c73-dac2-10f4-9b50">
+      <modifiers/>
+    </link>
+    <link id="3543-dc28-d0c4-5469" targetId="94bc-a395-9577-3618" linkType="entry" categoryId="c888f08a-6cea-4a01-8126-d374a9231554">
       <modifiers/>
     </link>
   </links>
@@ -3890,6 +3895,9 @@ Cover saves of enemy targets suffer -1 modifier</description>
             <link id="0867-c652-8a75-9af7" targetId="d190-6200-b8bd-b2fa" linkType="entry">
               <modifiers/>
             </link>
+            <link id="059c-74d1-ba39-6bc8" targetId="2cdf-6ee1-c7aa-1059" linkType="entry">
+              <modifiers/>
+            </link>
           </links>
         </entryGroup>
         <entryGroup id="9d8a-94db-5eab-603a" name="Right Arm" defaultEntryId="cceb-4f99-3646-4069" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
@@ -3904,6 +3912,9 @@ Cover saves of enemy targets suffer -1 modifier</description>
               <modifiers/>
             </link>
             <link id="3d64-cbf8-dea4-e216" targetId="d190-6200-b8bd-b2fa" linkType="entry">
+              <modifiers/>
+            </link>
+            <link id="ba1b-b4e0-e092-e46a" targetId="2cdf-6ee1-c7aa-1059" linkType="entry">
               <modifiers/>
             </link>
           </links>
@@ -3989,6 +4000,9 @@ Cover saves of enemy targets suffer -1 modifier</description>
           <modifiers/>
         </link>
         <link id="3d4c-59d6-ef8b-2075" targetId="723a6b38-cca2-b9ac-8a86-e5dac5582c34" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="2a29-bde9-f201-b8ea" targetId="e41e1229-72cb-0201-5e9e-338f3452eaf0" linkType="entry">
           <modifiers/>
         </link>
       </links>
@@ -4140,6 +4154,195 @@ Cover saves of enemy targets suffer -1 modifier</description>
               <conditionGroups/>
             </modifier>
           </modifiers>
+        </link>
+      </links>
+    </entry>
+    <entry id="94bc-a395-9577-3618" name="* Mastodon Heavy Assault Transport" points="700.0" categoryId="c888f08a-6cea-4a01-8126-d374a9231554" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="true" book="Mastodon-Rules.pdf">
+      <entries>
+        <entry id="c1b9-5bec-9332-28da" name="Siege Melta Array" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules>
+            <rule id="979e-c2d9-7c83-8e70" name="Stone Burner" hidden="false" book="Mastodon-Rules.pdf" page="2">
+              <description>When striking against buildings and fortifications, each penetrating hit inflicted becomes D3 penetrating hits.</description>
+              <modifiers/>
+            </rule>
+          </rules>
+          <profiles>
+            <profile id="9bb3-492c-e7d6-fd79" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" name="Siege Melta Array" hidden="false" book="Mastodon-Rules.pdf" page="2">
+              <characteristics>
+                <characteristic characteristicId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" name="Range" value="12"/>
+                <characteristic characteristicId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45" name="Strength" value="9"/>
+                <characteristic characteristicId="6abee736-f8d3-498e-97ac-a5c68445609f" name="AP" value="1"/>
+                <characteristic characteristicId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" name="Type" value="Heavy 4, 3&quot; Blast, Melta, Stone Burner"/>
+              </characteristics>
+              <modifiers/>
+            </profile>
+          </profiles>
+          <links/>
+        </entry>
+        <entry id="1f35-7dfb-e189-4059" name="Hunter-killer Missile" points="5.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="4" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles/>
+          <links>
+            <link id="7e20-2727-02bf-e5cc" targetId="613e529c-13df-12e6-70e5-8505f8d9234e" linkType="profile">
+              <modifiers/>
+            </link>
+          </links>
+        </entry>
+        <entry id="5a77-db63-56da-490c" name="Super-heavy Command Tank" points="20.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules>
+            <rule id="e218-b121-525f-509b" name="Command Tank" hidden="false" book="Imperial Armour Apocalypse 2013" page="6">
+              <modifiers/>
+            </rule>
+          </rules>
+          <profiles/>
+          <links/>
+        </entry>
+        <entry id="e7a1-0067-5c55-b818" name="Heavy Flamer" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="2" maxSelections="2" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles/>
+          <links>
+            <link id="f235-6cfb-1fee-7f1b" targetId="7991afc6-63e9-21ad-035c-b94dcc2dfabf" linkType="profile">
+              <modifiers/>
+            </link>
+          </links>
+        </entry>
+        <entry id="516d-b729-3b5f-8525" name="Lascannon" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="2" maxSelections="2" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles/>
+          <links>
+            <link id="79e8-4af7-c238-3baf" targetId="cec3d714-a7fc-55bf-f33b-d7ae471fdd97" linkType="profile">
+              <modifiers/>
+            </link>
+          </links>
+        </entry>
+        <entry id="3177-f11b-e3d1-1ab8" name="Void Shields" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="2" maxSelections="2" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles>
+            <profile id="9460-d8f7-6a7f-68c7" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" name="Void Shield" hidden="false" book="40k Apocalypse 2nd Ed" page="0">
+              <characteristics>
+                <characteristic characteristicId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="Each hit scored against the model will instead hit a void shield (whilst they remain). Close combat attacks come from inside the shield and therefore are not stopped. Void shields have an Armour Value of 12. A glancing or penetrating hit (or any hit from a Destroyer weapon) scored against a void shield causes it to collapse. After all the void shields have collapsed, further hits strike the model instead. At the end of each of the controlling player&apos;s turns, roll one dice for each collapsed void  shield: each roll of 5+ instantly restores one collapsed shield."/>
+              </characteristics>
+              <modifiers/>
+            </profile>
+          </profiles>
+          <links/>
+        </entry>
+      </entries>
+      <entryGroups>
+        <entryGroup id="21ab-48d9-be7b-60a3" name="Turret" defaultEntryId="f005-2382-19ba-40b9" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries>
+            <entry id="f005-2382-19ba-40b9" name="Skyreaper Battery" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles>
+                <profile id="24f8-8db6-fcf0-cedb" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" name="Skyreaper Battery" hidden="false" book="Mastodon-Rules.pdf" page="2">
+                  <characteristics>
+                    <characteristic characteristicId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" name="Range" value="48"/>
+                    <characteristic characteristicId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45" name="Strength" value="7"/>
+                    <characteristic characteristicId="6abee736-f8d3-498e-97ac-a5c68445609f" name="AP" value="4"/>
+                    <characteristic characteristicId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" name="Type" value="Heavy 5, Skyfire, Twin-linked, Interceptor"/>
+                  </characteristics>
+                  <modifiers/>
+                </profile>
+              </profiles>
+              <links/>
+            </entry>
+            <entry id="1a8d-1d8f-060a-fd15" name="Command Vox Relay" points="25.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="" page="0">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles>
+                <profile id="7fa0-e92e-8424-afe5" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" name="Command Vox Relay" hidden="false" book="Imperial Armour II 2nd Ed" page="186">
+                  <characteristics>
+                    <characteristic characteristicId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="May add or subtract 1 from all reserve rolls while on the table"/>
+                  </characteristics>
+                  <modifiers/>
+                </profile>
+              </profiles>
+              <links/>
+            </entry>
+          </entries>
+          <entryGroups/>
+          <modifiers/>
+          <links/>
+        </entryGroup>
+      </entryGroups>
+      <modifiers>
+        <modifier type="show" field="minSelections" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+          <conditions/>
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition parentId="roster" childId="61a02f94-5e73-0bcc-48f0-22910b91bb1c" field="selections" type="equal to" value="1.0"/>
+                <condition parentId="roster" childId="5c1d8b47-3c09-6633-198d-d5013d916ae4" field="selections" type="equal to" value="1.0"/>
+              </conditions>
+              <conditionGroups/>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
+      <rules>
+        <rule id="2513-2d75-be6f-7692" name="Reinforced Shell" hidden="false" book="Mastodon-Rules.pdf" page="2">
+          <description>If a Mastodon is Destroyed, reduce the roll made on the Catastrophic Damage table by -2. If the result rolled is actually &apos;0&apos; or &apos;-1&apos; after this modifier is taken into account, the Mastodon does not Explode, but it instead becomes a broken shell (note that it still counts as being destroyed for the purpose of Victory points or any relevant mission objectives however). Any models transported inside suffer an immediate Strength 4 hit – Vehicles are struck on their weakest Armour value. From this point onwards, its shell is treated as a ruined building rather than a vehicle wreck, with its two doorways counted as being open access points to the interior.</description>
+          <modifiers/>
+        </rule>
+        <rule id="5b38-5c3e-fee3-5c57" name="Enhanced Defensive Fire" hidden="false" book="Mastodon-Rules.pdf" page="2">
+          <description>So long as at least one unit occupies the Mastodon, the Mastodon may use Overwatch fire with its sponson-mounted weapons when assaulted. When this is the case, each sponson may be fired once per Assault phase at an assaulting unit within the particular weapon&apos;s arc of fire. In the case of the Mastodon&apos;s lascannon, this Overwatch fire is carried out at BS 2, and in the case of the Mastodon’s heavy flamers, D3+1 automatic hits are inflicted per heavy flamer on the assaulting unit that is fired upon.</description>
+          <modifiers/>
+        </rule>
+      </rules>
+      <profiles>
+        <profile id="1b59-7e6a-84d4-7d28" profileTypeId="725a358c-765b-498c-8de5-399fc0c0725f" name="Mastodon" hidden="false" book="Mastodon-Rules.pdf">
+          <characteristics>
+            <characteristic characteristicId="f6f92f00-8bb1-4afa-8ccb-46310b7dd5e5" name="BS" value="4"/>
+            <characteristic characteristicId="8cdd4fef-d1ba-4007-992c-b6f93e86d43f" name="Front" value="14"/>
+            <characteristic characteristicId="5f9a3780-eecb-4c70-be1d-e5bd06b06e9e" name="Side" value="14"/>
+            <characteristic characteristicId="0a9f33cb-0412-420a-89d2-20707c360bd2" name="Rear" value="14"/>
+            <characteristic characteristicId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" name="Type" value="Super-heavy Vehicle, Transport"/>
+            <characteristic characteristicId="ae95a1af-719f-4365-b951-33cd3ca9148a" name="HP" value="10"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links>
+        <link id="007e-1958-9900-8981" targetId="901362b0-6b08-ec25-5807-77468746511d" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="76b1-bbc0-0ffb-8503" targetId="5fdeb7c3-ba89-2ee3-c164-2dafda27a2aa" linkType="entry group">
+          <modifiers/>
+        </link>
+        <link id="8f8d-c7f1-938c-b2b8" targetId="2eec-e9b4-015a-9341" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="558f-6c76-c8f6-0a95" targetId="b776f053-4245-bca1-1b47-932fb4ac7ab2" linkType="profile">
+          <modifiers/>
+        </link>
+        <link id="3714-6b6a-6e0f-4f4c" targetId="4d58db03-31f8-4a5c-0b0d-53db43a768a9" linkType="profile">
+          <modifiers/>
+        </link>
+        <link id="2137-d119-fecf-08ee" targetId="01e84d3e-b6a8-6266-5548-d16770351601" linkType="rule">
+          <modifiers/>
         </link>
       </links>
     </entry>
@@ -8350,6 +8553,15 @@ The Warlord Titan&apos;s carapace-mounted weapons may not target models closer t
         <link id="71a6-56fa-14f3-ac37" targetId="a20f2dd8-e946-2b2c-4fc5-70610791b9be" linkType="profile">
           <modifiers/>
         </link>
+        <link id="a840-d325-3036-917a" targetId="a7fe42a6-8bb6-8844-292a-7c6d9d6844c8" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="0a8c-efa7-dae4-5676" targetId="d1000dcd-b046-a486-8bf1-4a09599afbe4" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="2b45-0fb5-87ba-e3ae" targetId="82618a5c-6ec0-935a-3b55-572909c0b26e" linkType="rule">
+          <modifiers/>
+        </link>
       </links>
     </entry>
     <entry id="96aa50d6-91a3-1559-3434-20e27ff428f5" name="Chainsword" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
@@ -9750,14 +9962,7 @@ The Warlord Titan&apos;s carapace-mounted weapons may not target models closer t
           <modifiers/>
         </link>
         <link id="b622-964b-1a74-ca33" targetId="4073-c4ea-1dc3-0f63" linkType="entry">
-          <modifiers>
-            <modifier type="hide" field="minSelections" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
-              <conditions>
-                <condition parentId="1a07-7e3c-af3b-7ce2" childId="e9fe-2fb3-056e-94ff" field="selections" type="equal to" value="1.0"/>
-              </conditions>
-              <conditionGroups/>
-            </modifier>
-          </modifiers>
+          <modifiers/>
         </link>
         <link id="5107-8b9c-695b-6e35" targetId="5670a420-377e-94cb-33fb-3e46343b2a23" linkType="rule">
           <modifiers/>
@@ -9810,6 +10015,9 @@ The Warlord Titan&apos;s carapace-mounted weapons may not target models closer t
                 <link id="3229-eb25-fc9b-a0a1" targetId="96aa50d6-91a3-1559-3434-20e27ff428f5" linkType="entry">
                   <modifiers/>
                 </link>
+                <link id="1c66-d17d-e0ee-a78c" targetId="1f23-786e-5ed4-b953" linkType="entry">
+                  <modifiers/>
+                </link>
               </links>
             </entryGroup>
             <entryGroup id="8f5a-333b-0b14-9057" name="Right Hand" defaultEntryId="6eed-ff87-0af2-b59d" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
@@ -9842,6 +10050,9 @@ The Warlord Titan&apos;s carapace-mounted weapons may not target models closer t
                   <modifiers/>
                 </link>
                 <link id="a5e7-6faa-2d4e-36ab" targetId="3e9639ad-4414-d7ec-49d6-8dcdf4ac25f0" linkType="entry">
+                  <modifiers/>
+                </link>
+                <link id="7c87-8bd8-69f3-4944" targetId="1f23-786e-5ed4-b953" linkType="entry">
                   <modifiers/>
                 </link>
               </links>
@@ -10079,6 +10290,59 @@ The Warlord Titan&apos;s carapace-mounted weapons may not target models closer t
           <modifiers/>
         </link>
       </links>
+    </entry>
+    <entry id="2cdf-6ee1-c7aa-1059" name="Cyclonic melta lance" points="20.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles>
+        <profile id="48ad-b1bf-5f2f-4bbb" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" name="Cyclonic melta lance" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" name="Range" value="18&quot;"/>
+            <characteristic characteristicId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45" name="Strength" value="9"/>
+            <characteristic characteristicId="6abee736-f8d3-498e-97ac-a5c68445609f" name="AP" value="1"/>
+            <characteristic characteristicId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" name="Type" value="Heavy 3, Melta"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links>
+        <link id="0997-45b2-f8aa-82d2" targetId="f42fe59c-9501-9c55-f63f-62c08a41816a" linkType="rule">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
+    <entry id="aedf-7e8d-6c0b-6836" name="Dark Talon Flyer Wing" points="0.0" categoryId="(No Category)" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups>
+        <entryGroup id="2726-f8f7-3043-57cd" name="Ravenwing Dark Talons" defaultEntryId="ec49-6d98-918b-a430" minSelections="2" maxSelections="4" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <links>
+            <link id="ec49-6d98-918b-a430" targetId="24c4-2a62-c218-3da1" linkType="entry">
+              <modifiers>
+                <modifier type="set" field="minSelections" value="2.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+                  <conditions/>
+                  <conditionGroups/>
+                </modifier>
+                <modifier type="set" field="maxSelections" value="4.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+                  <conditions/>
+                  <conditionGroups/>
+                </modifier>
+              </modifiers>
+            </link>
+            <link id="b20e-79ff-7ae3-8f67" targetId="5673-8bce-43a7-f462" linkType="rule">
+              <modifiers/>
+            </link>
+          </links>
+        </entryGroup>
+      </entryGroups>
+      <modifiers/>
+      <rules/>
+      <profiles/>
+      <links/>
     </entry>
     <entry id="fa1e-9cff-b133-3dc6" name="Deathwing Command Squad" points="0.0" categoryId="ff36a6f3-19bf-4f48-8956-adacfd28fe74" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="">
       <entries>
@@ -10638,23 +10902,10 @@ The Warlord Titan&apos;s carapace-mounted weapons may not target models closer t
     </entry>
     <entry id="948b-39d8-2c59-c3ca" name="Deathwing Terminator Squad" points="0.0" categoryId="638d74c6-bd97-4de5-b65a-6aaa24e9f4b2" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Codex: Dark Angels 2015" page="116">
       <entries>
-        <entry id="0436-9399-05db-33e2" name="Deathwing Terminators" points="40.0" categoryId="(No Category)" type="model" minSelections="5" maxSelections="10" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+        <entry id="0436-9399-05db-33e2" name="Deathwing Terminators" points="40.0" categoryId="(No Category)" type="model" minSelections="4" maxSelections="9" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries/>
           <entryGroups/>
-          <modifiers>
-            <modifier type="decrement" field="minSelections" value="1.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
-              <conditions>
-                <condition parentId="948b-39d8-2c59-c3ca" childId="f0d0-6409-d8b7-5a19" field="selections" type="equal to" value="1.0"/>
-              </conditions>
-              <conditionGroups/>
-            </modifier>
-            <modifier type="decrement" field="maxSelections" value="1.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
-              <conditions>
-                <condition parentId="948b-39d8-2c59-c3ca" childId="f0d0-6409-d8b7-5a19" field="selections" type="equal to" value="1.0"/>
-              </conditions>
-              <conditionGroups/>
-            </modifier>
-          </modifiers>
+          <modifiers/>
           <rules/>
           <profiles/>
           <links>
@@ -10669,21 +10920,89 @@ The Warlord Titan&apos;s carapace-mounted weapons may not target models closer t
             </link>
           </links>
         </entry>
-        <entry id="f0d0-6409-d8b7-5a19" name="Deathwing Sergeant" points="40.0" categoryId="(No Category)" type="model" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+        <entry id="f0d0-6409-d8b7-5a19" name="Deathwing Sergeant" points="40.0" categoryId="(No Category)" type="model" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries/>
-          <entryGroups/>
+          <entryGroups>
+            <entryGroup id="ed16-d5f2-784a-1859" name="Weaponry" defaultEntryId="ccee-f7f8-13e6-624b" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+              <entries>
+                <entry id="ccee-f7f8-13e6-624b" name="Storm Bolter and Power Sword" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+                  <entries/>
+                  <entryGroups/>
+                  <modifiers/>
+                  <rules/>
+                  <profiles/>
+                  <links>
+                    <link id="2ff8-10d0-0f83-2d11" targetId="a524478f-9b6f-7834-89dd-37518b0c9810" linkType="profile">
+                      <modifiers/>
+                    </link>
+                    <link id="ce1a-a3fb-6193-92cf" targetId="c2240ed0-58f9-b7aa-bc54-a6107c4cf942" linkType="profile">
+                      <modifiers/>
+                    </link>
+                  </links>
+                </entry>
+                <entry id="c3b3-b898-fbd6-c0b7" name="Pair of Lightning Claws" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+                  <entries/>
+                  <entryGroups/>
+                  <modifiers/>
+                  <rules/>
+                  <profiles/>
+                  <links>
+                    <link id="63a0-3290-e56d-f1ab" targetId="1b87a8ea-cb58-8595-b401-bf3232c870d6" linkType="profile">
+                      <modifiers/>
+                    </link>
+                    <link id="077a-2fb1-26d9-94ba" targetId="396a7fe1-ebb1-01cc-11ae-c022f00a3f68" linkType="rule">
+                      <modifiers/>
+                    </link>
+                    <link id="1e71-46ad-4b5d-dd89" targetId="82618a5c-6ec0-935a-3b55-572909c0b26e" linkType="rule">
+                      <modifiers/>
+                    </link>
+                  </links>
+                </entry>
+                <entry id="69be-0289-cab4-4f06" name="Storm Bolter and Chainfist" points="5.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+                  <entries/>
+                  <entryGroups/>
+                  <modifiers/>
+                  <rules/>
+                  <profiles/>
+                  <links>
+                    <link id="7b85-be55-00d7-fbc7" targetId="a524478f-9b6f-7834-89dd-37518b0c9810" linkType="profile">
+                      <modifiers/>
+                    </link>
+                    <link id="9b3e-80c6-7e89-80d5" targetId="a20f2dd8-e946-2b2c-4fc5-70610791b9be" linkType="profile">
+                      <modifiers/>
+                    </link>
+                    <link id="cafe-61fc-1f00-19b6" targetId="a7fe42a6-8bb6-8844-292a-7c6d9d6844c8" linkType="rule">
+                      <modifiers/>
+                    </link>
+                    <link id="6191-06b0-7e6b-0da2" targetId="82618a5c-6ec0-935a-3b55-572909c0b26e" linkType="rule">
+                      <modifiers/>
+                    </link>
+                    <link id="25c9-80f0-4ff4-cb95" targetId="d1000dcd-b046-a486-8bf1-4a09599afbe4" linkType="rule">
+                      <modifiers/>
+                    </link>
+                  </links>
+                </entry>
+              </entries>
+              <entryGroups/>
+              <modifiers/>
+              <links>
+                <link id="de08-0bfc-c1bd-ec81" targetId="9a46fdd5-3da1-3455-d781-8ba139dcb40a" linkType="entry">
+                  <modifiers/>
+                </link>
+              </links>
+            </entryGroup>
+          </entryGroups>
           <modifiers/>
           <rules/>
           <profiles/>
           <links>
-            <link id="7e24-4308-c45d-12d0" targetId="b6fd-bc8e-b2be-460c" linkType="entry">
-              <modifiers/>
-            </link>
-            <link id="d742-6d12-6af4-171c" targetId="2af9-3e12-029d-7ed5" linkType="entry">
-              <modifiers/>
-            </link>
             <link id="cd5d-344b-78ca-388b" targetId="0eec-7423-d98d-5785" linkType="profile">
-              <modifiers/>
+              <modifiers>
+                <modifier type="set" field="b215fe72-dbce-4ad6-89ec-c4bb3962c39d" value="2+/3++" repeat="true" numRepeats="1" incrementParentId="f0d0-6409-d8b7-5a19" incrementChildId="de08-0bfc-c1bd-ec81" incrementField="selections" incrementValue="1.0">
+                  <conditions/>
+                  <conditionGroups/>
+                </modifier>
+              </modifiers>
             </link>
           </links>
         </entry>
@@ -10699,6 +11018,12 @@ The Warlord Titan&apos;s carapace-mounted weapons may not target models closer t
               <profiles/>
               <links>
                 <link id="b287-672f-b277-7fc4" targetId="1b87a8ea-cb58-8595-b401-bf3232c870d6" linkType="profile">
+                  <modifiers/>
+                </link>
+                <link id="78d3-0c86-d445-c9d1" targetId="82618a5c-6ec0-935a-3b55-572909c0b26e" linkType="rule">
+                  <modifiers/>
+                </link>
+                <link id="2451-41b0-0dbf-4aa4" targetId="396a7fe1-ebb1-01cc-11ae-c022f00a3f68" linkType="rule">
                   <modifiers/>
                 </link>
               </links>
@@ -10767,6 +11092,9 @@ The Warlord Titan&apos;s carapace-mounted weapons may not target models closer t
                     <link id="0b3b-2974-e26b-2a0a" targetId="c9f4a0ee-a619-5d04-4718-5b9f11ef731e" linkType="profile">
                       <modifiers/>
                     </link>
+                    <link id="421a-b62a-014b-57e3" targetId="f0a12794-cc49-db78-9ca6-7e68f7d03cfc" linkType="rule">
+                      <modifiers/>
+                    </link>
                   </links>
                 </entry>
                 <entry id="cf9f-08b8-a1a3-35d4" name="Assault Cannon" points="20.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="2" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
@@ -10779,34 +11107,23 @@ The Warlord Titan&apos;s carapace-mounted weapons may not target models closer t
                     <link id="d6ec-b964-9432-f2d4" targetId="d465cfaa-ce2f-0fce-eed2-cdbcb22607cf" linkType="profile">
                       <modifiers/>
                     </link>
+                    <link id="06be-1b79-123d-3f18" targetId="8020fec3-42fe-889b-2a43-dca7626825b3" linkType="rule">
+                      <modifiers/>
+                    </link>
                   </links>
                 </entry>
               </entries>
               <entryGroups/>
               <modifiers>
-                <modifier type="decrement" field="maxSelections" value="1.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
-                  <conditions>
-                    <condition parentId="ed32-286e-6d65-7fdb" childId="3f55-57bb-c6ff-c736" field="selections" type="equal to" value="1.0"/>
-                  </conditions>
-                  <conditionGroups/>
-                </modifier>
-                <modifier type="increment" field="maxSelections" value="1.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
-                  <conditions>
-                    <condition parentId="948b-39d8-2c59-c3ca" childId="0436-9399-05db-33e2" field="selections" type="equal to" value="10.0"/>
-                  </conditions>
-                  <conditionGroups/>
-                </modifier>
-                <modifier type="increment" field="maxSelections" value="1.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+                <modifier type="decrement" field="maxSelections" value="1.0" repeat="true" numRepeats="1" incrementParentId="ed32-286e-6d65-7fdb" incrementChildId="3f55-57bb-c6ff-c736" incrementField="selections" incrementValue="1.0">
                   <conditions/>
-                  <conditionGroups>
-                    <conditionGroup type="and">
-                      <conditions>
-                        <condition parentId="948b-39d8-2c59-c3ca" childId="f0d0-6409-d8b7-5a19" field="selections" type="equal to" value="1.0"/>
-                        <condition parentId="948b-39d8-2c59-c3ca" childId="0436-9399-05db-33e2" field="selections" type="equal to" value="9.0"/>
-                      </conditions>
-                      <conditionGroups/>
-                    </conditionGroup>
-                  </conditionGroups>
+                  <conditionGroups/>
+                </modifier>
+                <modifier type="increment" field="maxSelections" value="1.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+                  <conditions>
+                    <condition parentId="948b-39d8-2c59-c3ca" childId="0436-9399-05db-33e2" field="selections" type="equal to" value="9.0"/>
+                  </conditions>
+                  <conditionGroups/>
                 </modifier>
               </modifiers>
               <links/>
@@ -10815,21 +11132,9 @@ The Warlord Titan&apos;s carapace-mounted weapons may not target models closer t
           <modifiers>
             <modifier type="increment" field="maxSelections" value="1.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
               <conditions>
-                <condition parentId="948b-39d8-2c59-c3ca" childId="0436-9399-05db-33e2" field="selections" type="equal to" value="10.0"/>
+                <condition parentId="948b-39d8-2c59-c3ca" childId="0436-9399-05db-33e2" field="selections" type="equal to" value="9.0"/>
               </conditions>
               <conditionGroups/>
-            </modifier>
-            <modifier type="increment" field="maxSelections" value="1.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
-              <conditions/>
-              <conditionGroups>
-                <conditionGroup type="and">
-                  <conditions>
-                    <condition parentId="948b-39d8-2c59-c3ca" childId="f0d0-6409-d8b7-5a19" field="selections" type="equal to" value="1.0"/>
-                    <condition parentId="948b-39d8-2c59-c3ca" childId="0436-9399-05db-33e2" field="selections" type="equal to" value="9.0"/>
-                  </conditions>
-                  <conditionGroups/>
-                </conditionGroup>
-              </conditionGroups>
             </modifier>
           </modifiers>
           <links>
@@ -10837,7 +11142,7 @@ The Warlord Titan&apos;s carapace-mounted weapons may not target models closer t
               <modifiers>
                 <modifier type="increment" field="maxSelections" value="1.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
                   <conditions>
-                    <condition parentId="948b-39d8-2c59-c3ca" childId="0436-9399-05db-33e2" field="selections" type="equal to" value="10.0"/>
+                    <condition parentId="948b-39d8-2c59-c3ca" childId="0436-9399-05db-33e2" field="selections" type="equal to" value="9.0"/>
                   </conditions>
                   <conditionGroups/>
                 </modifier>
@@ -13080,83 +13385,6 @@ The Knight has a 4+ invulnerable save against all hits on that facing until the 
                         </link>
                       </links>
                     </entryGroup>
-                    <entryGroup id="b614-f11e-a132-a897" name="Chapter Relics" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-                      <entries/>
-                      <entryGroups/>
-                      <modifiers/>
-                      <links>
-                        <link id="9309-874b-08c7-92da" targetId="1d55-3280-e8ce-2012" linkType="entry">
-                          <modifiers/>
-                        </link>
-                        <link id="eb34-82f5-25a3-6821" targetId="c872dd73-4701-85b3-16cc-c28d780698ed" linkType="entry">
-                          <modifiers>
-                            <modifier type="increment" field="points" value="5.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
-                              <conditions/>
-                              <conditionGroups>
-                                <conditionGroup type="and">
-                                  <conditions>
-                                    <condition parentId="1c4142f1-051a-8247-8122-3eb963b3b2e4" childId="f249-1432-1269-d6af" field="selections" type="equal to" value="1.0"/>
-                                    <condition parentId="1c4142f1-051a-8247-8122-3eb963b3b2e4" childId="ff51-b51d-bf1f-3bed" field="selections" type="equal to" value="0.0"/>
-                                  </conditions>
-                                  <conditionGroups/>
-                                </conditionGroup>
-                              </conditionGroups>
-                            </modifier>
-                          </modifiers>
-                        </link>
-                        <link id="e7fe-a709-d730-d540" targetId="192a4884-01ed-cc57-b799-026ff72bfacd" linkType="entry">
-                          <modifiers>
-                            <modifier type="increment" field="points" value="5.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
-                              <conditions/>
-                              <conditionGroups>
-                                <conditionGroup type="and">
-                                  <conditions>
-                                    <condition parentId="roster" childId="f249-1432-1269-d6af" field="selections" type="equal to" value="1.0"/>
-                                    <condition parentId="1c4142f1-051a-8247-8122-3eb963b3b2e4" childId="ff51-b51d-bf1f-3bed" field="selections" type="equal to" value="0.0"/>
-                                  </conditions>
-                                  <conditionGroups/>
-                                </conditionGroup>
-                              </conditionGroups>
-                            </modifier>
-                          </modifiers>
-                        </link>
-                        <link id="ae6a-d9c2-8787-08a3" targetId="7570bd0e-ebaa-2e6f-c7ea-d066af8eb10c" linkType="entry">
-                          <modifiers>
-                            <modifier type="increment" field="points" value="5.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
-                              <conditions/>
-                              <conditionGroups>
-                                <conditionGroup type="and">
-                                  <conditions>
-                                    <condition parentId="roster" childId="f249-1432-1269-d6af" field="selections" type="equal to" value="1.0"/>
-                                    <condition parentId="roster" childId="ff51-b51d-bf1f-3bed" field="selections" type="equal to" value="0.0"/>
-                                  </conditions>
-                                  <conditionGroups/>
-                                </conditionGroup>
-                              </conditionGroups>
-                            </modifier>
-                          </modifiers>
-                        </link>
-                        <link id="634d-c479-9c95-0e32" targetId="0152bd6f-5620-98e2-5bb1-4caf9cf56441" linkType="entry">
-                          <modifiers>
-                            <modifier type="increment" field="points" value="5.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
-                              <conditions/>
-                              <conditionGroups>
-                                <conditionGroup type="and">
-                                  <conditions>
-                                    <condition parentId="roster" childId="f249-1432-1269-d6af" field="selections" type="equal to" value="1.0"/>
-                                    <condition parentId="roster" childId="ff51-b51d-bf1f-3bed" field="selections" type="equal to" value="0.0"/>
-                                  </conditions>
-                                  <conditionGroups/>
-                                </conditionGroup>
-                              </conditionGroups>
-                            </modifier>
-                          </modifiers>
-                        </link>
-                        <link id="0ccd-37fc-cae5-a607" targetId="fa95-2bd4-5f50-d1d3" linkType="entry">
-                          <modifiers/>
-                        </link>
-                      </links>
-                    </entryGroup>
                   </entryGroups>
                   <modifiers>
                     <modifier type="increment" field="maxSelections" value="1.0" repeat="false" numRepeats="1" incrementParentId="1c4142f1-051a-8247-8122-3eb963b3b2e4" incrementChildId="ff51-b51d-bf1f-3bed" incrementField="selections" incrementValue="1.0">
@@ -13202,7 +13430,11 @@ The Knight has a 4+ invulnerable save against all hits on that facing until the 
                       <conditionGroups/>
                     </modifier>
                   </modifiers>
-                  <links/>
+                  <links>
+                    <link id="4801-6067-452e-14e2" targetId="012d-585f-2e25-1217" linkType="entry group">
+                      <modifiers/>
+                    </link>
+                  </links>
                 </entryGroup>
               </entryGroups>
               <modifiers>
@@ -13672,9 +13904,6 @@ The Knight has a 4+ invulnerable save against all hits on that facing until the 
         <link id="d824-d5f0-b114-ee0a" targetId="e0e4f215-7290-0b1b-1b3d-1c07e54e9f80" linkType="rule">
           <modifiers/>
         </link>
-        <link id="e099-1da9-ac2a-61a2" targetId="c17cda41-d6f3-79f7-d66b-0b3b8abb6dae" linkType="entry">
-          <modifiers/>
-        </link>
         <link id="7ef0-59ff-4bed-b59a" targetId="08082dae-2989-c512-bf74-886303002194" linkType="entry group">
           <modifiers>
             <modifier type="show" field="minSelections" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
@@ -13701,6 +13930,37 @@ The Knight has a 4+ invulnerable save against all hits on that facing until the 
           <modifiers/>
         </link>
       </links>
+    </entry>
+    <entry id="d05a-fa3a-278f-87d3" name="Nephilim Jetfighter Flyer Wing" points="0.0" categoryId="(No Category)" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups>
+        <entryGroup id="92dd-e027-e34e-e2e0" name="Nephilim Jetfighters" defaultEntryId="030f-6128-3621-10b5" minSelections="2" maxSelections="4" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <links>
+            <link id="030f-6128-3621-10b5" targetId="2c64-daad-13a6-c7bf" linkType="entry">
+              <modifiers>
+                <modifier type="set" field="minSelections" value="2.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+                  <conditions/>
+                  <conditionGroups/>
+                </modifier>
+                <modifier type="set" field="maxSelections" value="4.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+                  <conditions/>
+                  <conditionGroups/>
+                </modifier>
+              </modifiers>
+            </link>
+            <link id="684d-9b87-b35b-a823" targetId="5673-8bce-43a7-f462" linkType="rule">
+              <modifiers/>
+            </link>
+          </links>
+        </entryGroup>
+      </entryGroups>
+      <modifiers/>
+      <rules/>
+      <profiles/>
+      <links/>
     </entry>
     <entry id="e8ae-fba9-e9f1-fca0" name="Perfidious Relic of the Unforgiven" points="15.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="">
       <entries/>
@@ -14129,6 +14389,87 @@ The Knight has a 4+ invulnerable save against all hits on that facing until the 
           <links/>
         </entryGroup>
       </entryGroups>
+      <modifiers/>
+      <rules/>
+      <profiles/>
+      <links/>
+    </entry>
+    <entry id="cdda-9364-36a6-ffa9" name="Ravenwing Abductor Squadron" points="0.0" categoryId="(No Category)" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Death from the Skies" page="122">
+      <entries>
+        <entry id="4488-4f95-8c86-bab0" name="Flyer Wing" points="0.0" categoryId="(No Category)" type="unit" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups>
+            <entryGroup id="b5c9-6ae0-eb4b-2c59" name="Nephilim Jetfighters" defaultEntryId="560b-5c19-02bb-2bfd" minSelections="2" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <links>
+                <link id="560b-5c19-02bb-2bfd" targetId="2c64-daad-13a6-c7bf" linkType="entry">
+                  <modifiers>
+                    <modifier type="set" field="minSelections" value="2.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+                      <conditions/>
+                      <conditionGroups/>
+                    </modifier>
+                    <modifier type="set" field="maxSelections" value="2.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+                      <conditions/>
+                      <conditionGroups/>
+                    </modifier>
+                    <modifier type="set" field="minSelections" value="2.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+                      <conditions/>
+                      <conditionGroups/>
+                    </modifier>
+                    <modifier type="set" field="maxSelections" value="2.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+                      <conditions/>
+                      <conditionGroups/>
+                    </modifier>
+                  </modifiers>
+                </link>
+              </links>
+            </entryGroup>
+            <entryGroup id="2ed7-dcde-0790-3059" name="Ravenwing Dark Talon" defaultEntryId="2065-297c-813f-4c16" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <links>
+                <link id="2065-297c-813f-4c16" targetId="24c4-2a62-c218-3da1" linkType="entry">
+                  <modifiers>
+                    <modifier type="set" field="minSelections" value="1.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+                      <conditions/>
+                      <conditionGroups/>
+                    </modifier>
+                    <modifier type="set" field="maxSelections" value="1.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+                      <conditions/>
+                      <conditionGroups/>
+                    </modifier>
+                    <modifier type="set" field="minSelections" value="1.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+                      <conditions/>
+                      <conditionGroups/>
+                    </modifier>
+                    <modifier type="set" field="maxSelections" value="1.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+                      <conditions/>
+                      <conditionGroups/>
+                    </modifier>
+                  </modifiers>
+                </link>
+              </links>
+            </entryGroup>
+          </entryGroups>
+          <modifiers/>
+          <rules>
+            <rule id="154e-50b8-133c-f204" name="Dedicated Escorts" hidden="false" book="Death from the Skies" page="122">
+              <description>This formation’s Dark Talon (as the Wing Leader) receives the special rules for the Vigilance Attack Pattern if the Wing is in any type of Attack Pattern, not just the Vigilance Attack Pattern. The Vigilance special rule is received in addition to the normal special rule for the Attack Pattern.</description>
+              <modifiers/>
+            </rule>
+          </rules>
+          <profiles/>
+          <links>
+            <link id="6ab8-5ae5-863d-a342" targetId="5673-8bce-43a7-f462" linkType="rule">
+              <modifiers/>
+            </link>
+          </links>
+        </entry>
+      </entries>
+      <entryGroups/>
       <modifiers/>
       <rules/>
       <profiles/>
@@ -14923,9 +15264,6 @@ The Knight has a 4+ invulnerable save against all hits on that facing until the 
         </profile>
       </profiles>
       <links>
-        <link id="1724-4b8e-0384-8750" targetId="c17cda41-d6f3-79f7-d66b-0b3b8abb6dae" linkType="entry">
-          <modifiers/>
-        </link>
         <link id="5bea-17fd-e34b-6725" targetId="7e517e11-9580-52a8-35d0-43a654e74ae3" linkType="entry group">
           <modifiers>
             <modifier type="show" field="minSelections" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
@@ -15827,30 +16165,6 @@ casualties. In missions that use Victory Points to determine the winner, the Sla
     </entry>
     <entry id="ea80-2b91-97d7-d10b" name="Scout Squad" points="0.0" categoryId="5d76b6f5-20ae-4d70-8f59-ade72a2add3a" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="">
       <entries>
-        <entry id="39d2-5793-6d85-4e34" name="Scouts" points="11.0" categoryId="(No Category)" type="upgrade" minSelections="4" maxSelections="9" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
-          <entries/>
-          <entryGroups/>
-          <modifiers/>
-          <rules/>
-          <profiles>
-            <profile id="5be4-c4e6-e546-f2ad" profileTypeId="2d6001b0-980e-46d2-bcc2-a9fc60109afd" name="Scout" hidden="false" book="Codex: Dark Angels 2015" page="111">
-              <characteristics>
-                <characteristic characteristicId="c2b4b061-a0fd-499d-8a3d-6ee52587cbd5" name="Unit Type" value="Infantry"/>
-                <characteristic characteristicId="5ee4ff0b-b244-4670-9d05-91d10f80c32e" name="WS" value="4"/>
-                <characteristic characteristicId="f6f92f00-8bb1-4afa-8ccb-46310b7dd5e5" name="BS" value="4"/>
-                <characteristic characteristicId="da036dbb-32c2-430a-9dd5-aa74e0c4f74b" name="S" value="4"/>
-                <characteristic characteristicId="3f9ed75c-36cd-4169-9cef-48391bb55cfd" name="T" value="4"/>
-                <characteristic characteristicId="17ee558f-3014-4bd2-afc1-b474d8d2b7a8" name="W" value="1"/>
-                <characteristic characteristicId="a558b3ef-04d0-440e-a312-bac3255bf592" name="I" value="4"/>
-                <characteristic characteristicId="5dff3e7c-e024-4030-a71d-03195ec06ea7" name="A" value="1"/>
-                <characteristic characteristicId="4a42059d-12cd-4c1f-a4c7-bb569d13eeea" name="Ld" value="8"/>
-                <characteristic characteristicId="b215fe72-dbce-4ad6-89ec-c4bb3962c39d" name="Save" value="4+"/>
-              </characteristics>
-              <modifiers/>
-            </profile>
-          </profiles>
-          <links/>
-        </entry>
         <entry id="3296-2a73-4669-38cf" name="Scout Sergeant" points="11.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
           <entries>
             <entry id="851d-206d-baec-d805" name="Veteran Sgt" points="10.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
@@ -15978,7 +16292,7 @@ casualties. In missions that use Victory Points to determine the winner, the Sla
           <entries/>
           <entryGroups/>
           <modifiers>
-            <modifier type="increment" field="points" value="2.0" repeat="true" numRepeats="1" incrementParentId="ea80-2b91-97d7-d10b" incrementChildId="39d2-5793-6d85-4e34" incrementField="selections" incrementValue="1.0">
+            <modifier type="increment" field="points" value="2.0" repeat="true" numRepeats="1" incrementParentId="ea80-2b91-97d7-d10b" incrementChildId="e499-9274-860a-8375" incrementField="selections" incrementValue="1.0">
               <conditions/>
               <conditionGroups/>
             </modifier>
@@ -15993,45 +16307,67 @@ casualties. In missions that use Victory Points to determine the winner, the Sla
         </entry>
       </entries>
       <entryGroups>
-        <entryGroup id="93b3-17bf-23df-ac56" name="Main Weapons" defaultEntryId="2fc4-796c-2032-a1b9" minSelections="4" maxSelections="0" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+        <entryGroup id="e499-9274-860a-8375" name="Scouts" defaultEntryId="3b70-478e-6fe9-a98c" minSelections="4" maxSelections="9" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries>
-            <entry id="dec3-c539-61e4-2261" name="Space Marine shotgun" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="0" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
+            <entry id="f9ee-180a-7e83-904b" name="Scout (Heavy)" points="11.0" categoryId="(No Category)" type="model" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
               <entries/>
-              <entryGroups/>
-              <modifiers>
-                <modifier type="decrement" field="maxSelections" value="1.0" repeat="true" numRepeats="1" incrementParentId="ea80-2b91-97d7-d10b" incrementChildId="b69e-78c2-71e0-75b3" incrementField="selections" incrementValue="1.0">
-                  <conditions/>
-                  <conditionGroups/>
-                </modifier>
-                <modifier type="increment" field="maxSelections" value="1.0" repeat="true" numRepeats="1" incrementParentId="ea80-2b91-97d7-d10b" incrementChildId="39d2-5793-6d85-4e34" incrementField="selections" incrementValue="1.0">
-                  <conditions/>
-                  <conditionGroups/>
-                </modifier>
-              </modifiers>
+              <entryGroups>
+                <entryGroup id="c96f-c9e7-e5f5-6d13" name="Weapon" defaultEntryId="9216-568f-0276-6ee7" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+                  <entries/>
+                  <entryGroups/>
+                  <modifiers/>
+                  <links>
+                    <link id="8e10-01d3-640f-459e" targetId="c4d8-837c-cb66-9cf5" linkType="entry">
+                      <modifiers/>
+                    </link>
+                    <link id="6c98-d8b9-8bcc-4812" targetId="0268-9e3a-0154-868e" linkType="entry">
+                      <modifiers/>
+                    </link>
+                    <link id="932f-5a26-81d3-627e" targetId="f246-5643-62b3-be1b" linkType="entry">
+                      <modifiers/>
+                    </link>
+                    <link id="9216-568f-0276-6ee7" targetId="cf1e-af32-4b46-2cdf" linkType="entry">
+                      <modifiers>
+                        <modifier type="set" field="points" value="8.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+                          <conditions/>
+                          <conditionGroups/>
+                        </modifier>
+                      </modifiers>
+                    </link>
+                  </links>
+                </entryGroup>
+              </entryGroups>
+              <modifiers/>
               <rules/>
               <profiles/>
               <links>
-                <link id="b075-7914-35fa-fb44" targetId="f796-b75e-4596-d5bd" linkType="profile">
+                <link id="53a7-5695-31f4-08c3" targetId="6a3c-4d38-eba3-329e" linkType="profile">
                   <modifiers/>
                 </link>
               </links>
             </entry>
-            <entry id="fdd1-fc54-c217-ad12" name="Sniper Rifle" points="1.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="0" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
+            <entry id="a4e8-c81a-8ead-c045" name="Scout (Shotgun)" points="11.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="9" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
               <entries/>
               <entryGroups/>
-              <modifiers>
-                <modifier type="decrement" field="maxSelections" value="1.0" repeat="true" numRepeats="1" incrementParentId="93b3-17bf-23df-ac56" incrementChildId="b69e-78c2-71e0-75b3" incrementField="selections" incrementValue="1.0">
-                  <conditions/>
-                  <conditionGroups/>
-                </modifier>
-                <modifier type="increment" field="maxSelections" value="1.0" repeat="true" numRepeats="1" incrementParentId="ea80-2b91-97d7-d10b" incrementChildId="39d2-5793-6d85-4e34" incrementField="selections" incrementValue="1.0">
-                  <conditions/>
-                  <conditionGroups/>
-                </modifier>
-              </modifiers>
+              <modifiers/>
+              <rules/>
+              <profiles/>
+              <links>
+                <link id="4a6f-7e00-895a-d730" targetId="6a3c-4d38-eba3-329e" linkType="profile">
+                  <modifiers/>
+                </link>
+                <link id="3f78-2180-e1a8-afe9" targetId="f796-b75e-4596-d5bd" linkType="profile">
+                  <modifiers/>
+                </link>
+              </links>
+            </entry>
+            <entry id="1b5c-6408-a633-6441" name="Scout (Sniper Rifle)" points="12.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="9" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
               <rules/>
               <profiles>
-                <profile id="da69-b8f3-d436-08fc" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" name="Sniper Rifle" hidden="false" page="0">
+                <profile id="b76b-0ee5-0a5e-d9af" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" name="Sniper Rifle" hidden="false" page="0">
                   <characteristics>
                     <characteristic characteristicId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" name="Range" value="36&quot;"/>
                     <characteristic characteristicId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45" name="Strength" value="X"/>
@@ -16041,63 +16377,31 @@ casualties. In missions that use Victory Points to determine the winner, the Sla
                   <modifiers/>
                 </profile>
               </profiles>
-              <links/>
+              <links>
+                <link id="00a2-c8c3-c562-3680" targetId="6a3c-4d38-eba3-329e" linkType="profile">
+                  <modifiers/>
+                </link>
+              </links>
             </entry>
-            <entry id="2fc4-796c-2032-a1b9" name="Boltguns" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="0" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+            <entry id="3b70-478e-6fe9-a98c" name="Scout (Boltgun)" points="11.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="9" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
               <entries/>
               <entryGroups/>
-              <modifiers>
-                <modifier type="increment" field="maxSelections" value="1.0" repeat="true" numRepeats="1" incrementParentId="ea80-2b91-97d7-d10b" incrementChildId="39d2-5793-6d85-4e34" incrementField="selections" incrementValue="1.0">
-                  <conditions/>
-                  <conditionGroups/>
-                </modifier>
-              </modifiers>
+              <modifiers/>
               <rules/>
               <profiles/>
               <links>
-                <link id="685a-a512-6c19-6b5b" targetId="d0855a82-95b8-3ced-5254-e8a058a4fd97" linkType="profile">
+                <link id="113f-a11c-a71a-b135" targetId="6a3c-4d38-eba3-329e" linkType="profile">
+                  <modifiers/>
+                </link>
+                <link id="18fd-db18-3182-3523" targetId="d0855a82-95b8-3ced-5254-e8a058a4fd97" linkType="profile">
                   <modifiers/>
                 </link>
               </links>
             </entry>
           </entries>
-          <entryGroups>
-            <entryGroup id="b69e-78c2-71e0-75b3" name="Heavy Weapon" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-              <entries/>
-              <entryGroups/>
-              <modifiers/>
-              <links>
-                <link id="f0c7-48a7-954f-b435" targetId="cf1e-af32-4b46-2cdf" linkType="entry">
-                  <modifiers>
-                    <modifier type="set" field="points" value="8.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
-                      <conditions/>
-                      <conditionGroups/>
-                    </modifier>
-                  </modifiers>
-                </link>
-                <link id="5c17-865e-cc13-ef62" targetId="0268-9e3a-0154-868e" linkType="entry">
-                  <modifiers/>
-                </link>
-                <link id="7e18-a1ad-168f-3107" targetId="f246-5643-62b3-be1b" linkType="entry">
-                  <modifiers/>
-                </link>
-                <link id="5fc9-4ada-bd49-e087" targetId="c4d8-837c-cb66-9cf5" linkType="entry">
-                  <modifiers/>
-                </link>
-              </links>
-            </entryGroup>
-          </entryGroups>
-          <modifiers>
-            <modifier type="increment" field="maxSelections" value="1.0" repeat="true" numRepeats="1" incrementParentId="ea80-2b91-97d7-d10b" incrementChildId="39d2-5793-6d85-4e34" incrementField="selections" incrementValue="1.0">
-              <conditions/>
-              <conditionGroups/>
-            </modifier>
-          </modifiers>
-          <links>
-            <link id="5c48-03e1-326b-05e5" targetId="782d-c043-c8da-c9c2" linkType="entry">
-              <modifiers/>
-            </link>
-          </links>
+          <entryGroups/>
+          <modifiers/>
+          <links/>
         </entryGroup>
       </entryGroups>
       <modifiers/>
@@ -16123,9 +16427,6 @@ casualties. In missions that use Victory Points to determine the winner, the Sla
           <modifiers/>
         </link>
         <link id="2f12-ba05-f832-c60f" targetId="5670a420-377e-94cb-33fb-3e46343b2a23" linkType="rule">
-          <modifiers/>
-        </link>
-        <link id="bd34-d1fd-70a2-011a" targetId="4505-fc26-c4b8-1918" linkType="entry">
           <modifiers/>
         </link>
       </links>
@@ -17021,6 +17322,15 @@ A mindlocked unit may not voluntarily move, shoot or charge. A mindlocked unit m
         <link id="700458e9-50fb-a495-b8a4-bd2865f51f99" targetId="619a0136-86e6-1470-bd0e-d586455fd3b7" linkType="profile">
           <modifiers/>
         </link>
+        <link id="d389-27f8-407a-0cbf" targetId="d1000dcd-b046-a486-8bf1-4a09599afbe4" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="60c4-3f70-a919-6565" targetId="82618a5c-6ec0-935a-3b55-572909c0b26e" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="06a6-ba4a-1f84-71f8" targetId="6a0fa0dc-46cc-6168-95fa-1187ab48011d" linkType="rule">
+          <modifiers/>
+        </link>
       </links>
     </entry>
     <entry id="67bb-a009-138a-624a" name="Typhoon Missile Launcher" points="25.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
@@ -17482,7 +17792,7 @@ A mindlocked unit may not voluntarily move, shoot or charge. A mindlocked unit m
         </link>
       </links>
     </entryGroup>
-    <entryGroup id="012d-585f-2e25-1217" name="Chapter Relics" minSelections="0" maxSelections="2" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+    <entryGroup id="012d-585f-2e25-1217" name="Chapter Relics" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries/>
       <entryGroups/>
       <modifiers/>
@@ -17621,7 +17931,7 @@ A mindlocked unit may not voluntarily move, shoot or charge. A mindlocked unit m
             </link>
           </links>
         </entryGroup>
-        <entryGroup id="2aed-f444-fd4a-3479" name="Chapter Relics" minSelections="0" maxSelections="2" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+        <entryGroup id="2aed-f444-fd4a-3479" name="Chapter Relics" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries/>
           <entryGroups/>
           <modifiers/>
@@ -17982,6 +18292,9 @@ A mindlocked unit may not voluntarily move, shoot or charge. A mindlocked unit m
             <link id="3029-d8af-0c34-7c81" targetId="5120d74e-4c45-f3b4-42ae-53ef65dce449" linkType="profile">
               <modifiers/>
             </link>
+            <link id="d117-6194-8c23-ab7b" targetId="7f6f9cb8-1958-fbb5-48fb-8d3502b3a1c4" linkType="rule">
+              <modifiers/>
+            </link>
           </links>
         </entry>
         <entry id="eda1-7f48-41ce-4723" name="Power Fist" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
@@ -18041,6 +18354,9 @@ A mindlocked unit may not voluntarily move, shoot or charge. A mindlocked unit m
             <link id="2afc-4f48-e625-0f12" targetId="5120d74e-4c45-f3b4-42ae-53ef65dce449" linkType="profile">
               <modifiers/>
             </link>
+            <link id="867c-61e0-c060-583f" targetId="7f6f9cb8-1958-fbb5-48fb-8d3502b3a1c4" linkType="rule">
+              <modifiers/>
+            </link>
           </links>
         </entry>
         <entry id="a1c2-05d8-3e6e-5be9" name="Twin-Linked Heavy Bolter" points="5.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
@@ -18051,6 +18367,9 @@ A mindlocked unit may not voluntarily move, shoot or charge. A mindlocked unit m
           <profiles/>
           <links>
             <link id="c38e-38f5-9029-c0cd" targetId="229d7dc1-5484-ea4b-34a0-e6d3b525e6d7" linkType="profile">
+              <modifiers/>
+            </link>
+            <link id="df0d-afc9-4b33-6c9b" targetId="7f6f9cb8-1958-fbb5-48fb-8d3502b3a1c4" linkType="rule">
               <modifiers/>
             </link>
           </links>
@@ -18065,6 +18384,9 @@ A mindlocked unit may not voluntarily move, shoot or charge. A mindlocked unit m
             <link id="8c1b-1567-a03a-1123" targetId="7991afc6-63e9-21ad-035c-b94dcc2dfabf" linkType="profile">
               <modifiers/>
             </link>
+            <link id="92a1-436d-634d-4914" targetId="7f6f9cb8-1958-fbb5-48fb-8d3502b3a1c4" linkType="rule">
+              <modifiers/>
+            </link>
           </links>
         </entry>
         <entry id="03a0-2fc2-791d-9001" name="Twin-Linked Lascannon" points="15.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
@@ -18075,6 +18397,9 @@ A mindlocked unit may not voluntarily move, shoot or charge. A mindlocked unit m
           <profiles/>
           <links>
             <link id="27e0-3aa8-1945-2f5f" targetId="cec3d714-a7fc-55bf-f33b-d7ae471fdd97" linkType="profile">
+              <modifiers/>
+            </link>
+            <link id="f9e7-3f07-4903-18c7" targetId="7f6f9cb8-1958-fbb5-48fb-8d3502b3a1c4" linkType="rule">
               <modifiers/>
             </link>
           </links>
@@ -20388,12 +20713,6 @@ A mindlocked unit may not voluntarily move, shoot or charge.  A mindlocked unit 
       <description>Dark Angels Librarians are Psykers who use the Interromancy (Dark Angels p 156), Divination, Pyromancy, Telepathy, Telekinesis or and/or Demonology powers</description>
       <modifiers/>
     </rule>
-    <rule id="f1af-1871-c212-95aa" name="RAI Warning (DWSF)" hidden="true">
-      <description>RAW, every character with the Deathwing Special Rule can be taken in this detachment. This includes power armored HQ choices. However, due to the wording of Deep Strike and correlating rules and the lack of Deep Strike on these two, he would stay in Deep Strike reserve until the end of the game and count as destroyed. So without a houserule, the RAW is useless. The same applies to Land Raiders chosen as Dedicated Transports.
-
-Be sure to talk to your opponent about this to come to a conclusion if he is able to deploy!</description>
-      <modifiers/>
-    </rule>
     <rule id="9338292b-c019-35c7-3455-bda9e27ae505" name="Rapid Fire" hidden="false" book="BRB 2014" page="42">
       <description>Has one extra attack while in/below half range.</description>
       <modifiers/>
@@ -20538,6 +20857,17 @@ At the beginning of every subsequent player turn, the marker scatters 2D6&quot; 
     </rule>
     <rule id="e907b0e5-70d6-0cf6-f842-54b77893880a" name="Warlord Trait: The Hunt" hidden="false" book="Codex: Dark Angels 6th" page="28">
       <description>If this model is chosen as your Warlord, it has the Warlord Trait &quot;The Hunt&quot;: +1 Victory point if your Warlord or his unit kill enemy Warlord in the Assault phase.</description>
+      <modifiers/>
+    </rule>
+    <rule id="5673-8bce-43a7-f462" name="Wing Leader (Ravenwing)" hidden="false" book="Death from the Skies">
+      <description>At the start of any game, immediately after determining your Warlord Trait, roll on the Wing Leader table for each Wing Leader to determine their special rule.
+
+1-2 Son of the Lion: Add 1 to the Pursuit value for this Wing Leader (pg 58). Add 2 to the Pursuit valueif any models in the enemy army have the Chaos Space Marines Faction.
+
+3-4 Sweep the Skies: The Wing Leader and any other models from his Flyer Wing can move on from any point along any table edge when arriving from Ongoing Reserves.
+
+5-6 Seekers of the Foe: Any friendly unit with the Dark Angels Faction which Deep Strikes within 12&quot;
+of this Wing Leader will not scatter.</description>
       <modifiers/>
     </rule>
     <rule id="9edd-61da-f21b-50e3" name="Wrecker" hidden="false">
@@ -20847,10 +21177,10 @@ Unit re-rolls all failed To Hit rolls during the first round of each close comba
     </profile>
     <profile id="059d-911d-c9b5-c652" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" name="Eviscerator" hidden="false" book="Dark Angels 2015">
       <characteristics>
-        <characteristic characteristicId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" name="Range" value="Melee"/>
-        <characteristic characteristicId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45" name="Strength" value="S+2"/>
+        <characteristic characteristicId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" name="Range" value="-"/>
+        <characteristic characteristicId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45" name="Strength" value="Sx2"/>
         <characteristic characteristicId="6abee736-f8d3-498e-97ac-a5c68445609f" name="AP" value="2"/>
-        <characteristic characteristicId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" name="Type" value="Armorbane, Two-Handed, Unwieldy"/>
+        <characteristic characteristicId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" name="Type" value="Melee, Armorbane, Two-Handed, Unwieldy"/>
       </characteristics>
       <modifiers/>
     </profile>
@@ -20943,7 +21273,7 @@ Unit re-rolls all failed To Hit rolls during the first round of each close comba
         <characteristic characteristicId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" name="Range" value="18&quot;"/>
         <characteristic characteristicId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45" name="Strength" value="*"/>
         <characteristic characteristicId="6abee736-f8d3-498e-97ac-a5c68445609f" name="AP" value="2"/>
-        <characteristic characteristicId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" name="Type" value="Salvo 2/3"/>
+        <characteristic characteristicId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" name="Type" value="Salvo 2/3, Concussive, Graviton"/>
       </characteristics>
       <modifiers/>
     </profile>
@@ -21607,6 +21937,21 @@ Unit re-rolls all failed To Hit rolls during the first round of each close comba
         <characteristic characteristicId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45" name="Strength" value="8"/>
         <characteristic characteristicId="6abee736-f8d3-498e-97ac-a5c68445609f" name="AP" value="3"/>
         <characteristic characteristicId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" name="Type" value="Heavy 1, Barrage, Blast, Rocket Barrage"/>
+      </characteristics>
+      <modifiers/>
+    </profile>
+    <profile id="6a3c-4d38-eba3-329e" profileTypeId="2d6001b0-980e-46d2-bcc2-a9fc60109afd" name="Scout" hidden="false" book="Codex: Dark Angels 2015" page="111">
+      <characteristics>
+        <characteristic characteristicId="c2b4b061-a0fd-499d-8a3d-6ee52587cbd5" name="Unit Type" value="Infantry"/>
+        <characteristic characteristicId="5ee4ff0b-b244-4670-9d05-91d10f80c32e" name="WS" value="4"/>
+        <characteristic characteristicId="f6f92f00-8bb1-4afa-8ccb-46310b7dd5e5" name="BS" value="4"/>
+        <characteristic characteristicId="da036dbb-32c2-430a-9dd5-aa74e0c4f74b" name="S" value="4"/>
+        <characteristic characteristicId="3f9ed75c-36cd-4169-9cef-48391bb55cfd" name="T" value="4"/>
+        <characteristic characteristicId="17ee558f-3014-4bd2-afc1-b474d8d2b7a8" name="W" value="1"/>
+        <characteristic characteristicId="a558b3ef-04d0-440e-a312-bac3255bf592" name="I" value="4"/>
+        <characteristic characteristicId="5dff3e7c-e024-4030-a71d-03195ec06ea7" name="A" value="1"/>
+        <characteristic characteristicId="4a42059d-12cd-4c1f-a4c7-bb569d13eeea" name="Ld" value="8"/>
+        <characteristic characteristicId="b215fe72-dbce-4ad6-89ec-c4bb3962c39d" name="Save" value="4+"/>
       </characteristics>
       <modifiers/>
     </profile>

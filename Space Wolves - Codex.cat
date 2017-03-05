@@ -1,6 +1,122 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="21e36b7e-84ee-2ec0-53f2-2c32fd8bd981" revision="75" gameSystemId="e1ebd931-a209-3ce4-87b4-d9918d25530b" gameSystemRevision="0" battleScribeVersion="1.15" name="Space Wolves: Codex (2014)" books="" authorName="BSData" authorContact="" authorUrl="http://battlescribedata.appspot.com/#/repo/wh40k" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="21e36b7e-84ee-2ec0-53f2-2c32fd8bd981" revision="86" gameSystemId="e1ebd931-a209-3ce4-87b4-d9918d25530b" gameSystemRevision="0" battleScribeVersion="1.15" name="Space Wolves: Codex (2014)" books="" authorName="BSData" authorContact="" authorUrl="http://battlescribedata.appspot.com/#/repo/wh40k" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <entries>
+    <entry id="c4ec-067c-bc31-4a00" name="&quot;&apos;The Greatpack&apos;&quot;" points="0.0" categoryId="28b94f51-e66b-4096-aa59-0c9df620a77d" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups>
+        <entryGroup id="fc31-6a2f-40bf-96cd" name="Leader" defaultEntryId="1a1f-26cd-7b2b-cc85" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <links>
+            <link id="1a1f-26cd-7b2b-cc85" targetId="137b70f2-f9a8-a9d6-b386-8ad300b0ffbc" linkType="entry">
+              <modifiers/>
+            </link>
+            <link id="f663-57c5-140d-ffc0" targetId="0c1794b1-bf25-6b65-8f11-5ae54c0c7d5f" linkType="entry">
+              <modifiers/>
+            </link>
+          </links>
+        </entryGroup>
+        <entryGroup id="3379-b4bc-523d-82b4" name="0-1 Units" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <links>
+            <link id="f0f6-51a8-0564-a6ea" targetId="1d43-2aba-90d3-edc9" linkType="entry">
+              <modifiers/>
+            </link>
+            <link id="5110-6b94-4890-0354" targetId="8d2353b0-5f5b-42cd-ab74-9e84494197f6" linkType="entry">
+              <modifiers/>
+            </link>
+            <link id="7d65-f9b0-2c35-4b50" targetId="b644a899-4226-4b28-a533-6a648bf93e46" linkType="entry">
+              <modifiers/>
+            </link>
+          </links>
+        </entryGroup>
+        <entryGroup id="bd75-52b9-8013-6007" name="1-3 Units" minSelections="1" maxSelections="3" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <links>
+            <link id="8e16-d636-3238-40e8" targetId="ce35738a-69e1-2b3e-c3b1-d1a9a447613b" linkType="entry">
+              <modifiers/>
+            </link>
+            <link id="ac43-a294-e6f4-560f" targetId="2b314f77-f9e1-e467-7034-e71ebfbe2b89" linkType="entry">
+              <modifiers/>
+            </link>
+            <link id="6a02-1005-dc71-1900" targetId="b66e181f-a932-2f91-d2c3-a2c9b756fb12" linkType="entry">
+              <modifiers/>
+            </link>
+          </links>
+        </entryGroup>
+        <entryGroup id="a882-01fc-b383-2e70" name="0-1 Units" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <links>
+            <link id="2809-0baa-13ce-056c" targetId="2234b54b-fb7f-683f-b31a-14c33b28c1c3" linkType="entry">
+              <modifiers/>
+            </link>
+          </links>
+        </entryGroup>
+        <entryGroup id="c70d-66d9-1c4f-27cb" name="1-2 Units" minSelections="1" maxSelections="2" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <links>
+            <link id="4df5-cb59-a13f-9e6e" targetId="47c5ec4c-76be-4b5e-a1a2-cead404ad7cf" linkType="entry">
+              <modifiers/>
+            </link>
+          </links>
+        </entryGroup>
+        <entryGroup id="f645-55de-f1f1-d605" name="0-1 Units" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <links>
+            <link id="c989-eeb0-18dc-b679" targetId="d3fcce5e-7b98-42b8-92e5-23e0f56cd4d9" linkType="entry">
+              <modifiers/>
+            </link>
+          </links>
+        </entryGroup>
+        <entryGroup id="e450-20e0-77c6-cfbd" name="0-2 Units" minSelections="0" maxSelections="2" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <links>
+            <link id="f575-e3ce-ea79-2adb" targetId="d705899a-961e-4230-8829-23ef49301432" linkType="entry">
+              <modifiers/>
+            </link>
+          </links>
+        </entryGroup>
+        <entryGroup id="7a0b-c3db-fdec-8827" name="3-5 Units" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <links>
+            <link id="ad94-e2c7-a666-89a3" targetId="e53b-cd3f-942c-e67e" linkType="entry">
+              <modifiers/>
+            </link>
+            <link id="fa28-faa2-315d-6ecc" targetId="c739de81-036b-4e6e-a10f-9dcaa9d67836" linkType="entry">
+              <modifiers/>
+            </link>
+          </links>
+        </entryGroup>
+      </entryGroups>
+      <modifiers/>
+      <rules>
+        <rule id="650d-b70b-9d53-9461" name="Running of the Wolf" hidden="false">
+          <description>Before deployment, roll a D6 for each unit in a Greatpack, adding 2 to the result if the unit’s Battlefield Role is Troops and it has been joined by an Independent Character from this Formation (before rolling, inform your opponent which Independent Characters, if any, will start the game joined to which Troops units). On a 6+, that unit has the Outflank special rule. In addition, if a Greatpack is led by a Wolf Lord, at the start of each of your turns after the first, you may select one unit from this Formation that is in Reserves. That unit automatically passes its Reserve Roll to arrive this turn (no dice roll is necessary).</description>
+          <modifiers/>
+        </rule>
+        <rule id="f846-b339-dfda-144c" name="Jarl of Russ" hidden="false">
+          <description>If this Formation is your Primary Detachment, or is part of your Primary Detachment, you can re-roll the result when rolling on the Warlord Traits table in Codex: Space </description>
+          <modifiers/>
+        </rule>
+      </rules>
+      <profiles/>
+      <links/>
+    </entry>
     <entry id="dec7-3100-06a0-9ae8" name="&quot;Deathpack&quot;" points="0.0" categoryId="28b94f51-e66b-4096-aa59-0c9df620a77d" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Start Collecting! Space Wolves">
       <entries/>
       <entryGroups>
@@ -13273,9 +13389,6 @@ If a model with this special rule charges a building or vehicle, the hit is reso
             <link id="977990f5-7802-7a17-1d2d-ae2518e3df5e" targetId="f2d93014-59c8-c214-d4c4-02bf2f7a7961" linkType="entry">
               <modifiers/>
             </link>
-            <link id="6525d302-8e58-3594-9482-022279c81f39" targetId="7d9dc261-8094-d24a-09d1-bc213a7488af" linkType="entry">
-              <modifiers/>
-            </link>
           </links>
         </entryGroup>
       </entryGroups>
@@ -13412,9 +13525,6 @@ If a model with this special rule charges a building or vehicle, the hit is reso
             <link id="959e5f31-0fbd-4ac6-472e-465744ec5ea5" targetId="f2d93014-59c8-c214-d4c4-02bf2f7a7961" linkType="entry">
               <modifiers/>
             </link>
-            <link id="149181ac-60f5-0757-3093-06089e46ec72" targetId="7d9dc261-8094-d24a-09d1-bc213a7488af" linkType="entry">
-              <modifiers/>
-            </link>
           </links>
         </entryGroup>
       </entryGroups>
@@ -13499,9 +13609,6 @@ If a model with this special rule charges a building or vehicle, the hit is reso
           <modifiers/>
         </link>
         <link id="73a85e2d-8a47-71d1-a16d-48b61097e483" targetId="c23dbe20-6e87-1b1e-462e-4bd050161057" linkType="entry">
-          <modifiers/>
-        </link>
-        <link id="2dc8dc4d-e27b-6b79-e126-014af078f62a" targetId="7d9dc261-8094-d24a-09d1-bc213a7488af" linkType="entry">
           <modifiers/>
         </link>
       </links>
@@ -13619,9 +13726,6 @@ If a model with this special rule charges a building or vehicle, the hit is reso
           <modifiers/>
           <links>
             <link id="2679da96-a478-8f20-a262-ca20f34203cb" targetId="f2d93014-59c8-c214-d4c4-02bf2f7a7961" linkType="entry">
-              <modifiers/>
-            </link>
-            <link id="3469ad14-30ea-d0a8-fedf-77e76269f404" targetId="7d9dc261-8094-d24a-09d1-bc213a7488af" linkType="entry">
               <modifiers/>
             </link>
           </links>
@@ -13895,6 +13999,182 @@ If a model with this special rule charges a building or vehicle, the hit is reso
           <modifiers/>
         </link>
         <link id="c194debf-7ee0-d424-50b3-a5852ffb22cb" targetId="0b5b2a10-a863-3440-5074-4238d27797b5" linkType="entry">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
+    <entry id="0dbf-5fb7-cac2-5e8a" name="Mastodon Heavy Assault Transport (FW)" points="700.0" categoryId="c888f08a-6cea-4a01-8126-d374a9231554" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Mastodon-Rules.pdf">
+      <entries>
+        <entry id="021e-64bb-5151-29e3" name="Siege Melta Array" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules>
+            <rule id="d0d8-8cd3-625f-9633" name="Stone Burner" hidden="false" book="Mastodon-Rules.pdf" page="2">
+              <description>When striking against buildings and fortifications, each penetrating hit inflicted becomes D3 penetrating hits.</description>
+              <modifiers/>
+            </rule>
+          </rules>
+          <profiles>
+            <profile id="65f1-9d4e-deb3-2b39" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" name="Siege Melta Array" hidden="false" book="Mastodon-Rules.pdf" page="2">
+              <characteristics>
+                <characteristic characteristicId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" name="Range" value="12"/>
+                <characteristic characteristicId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45" name="Strength" value="9"/>
+                <characteristic characteristicId="6abee736-f8d3-498e-97ac-a5c68445609f" name="AP" value="1"/>
+                <characteristic characteristicId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" name="Type" value="Heavy 4, 3&quot; Blast, Melta, Stone Burner"/>
+              </characteristics>
+              <modifiers/>
+            </profile>
+          </profiles>
+          <links/>
+        </entry>
+        <entry id="9089-3507-e605-e482" name="Hunter-killer Missile" points="5.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="4" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles/>
+          <links>
+            <link id="bf35-16ba-96ad-69cd" targetId="993442fa-6e0a-526d-543a-34cb27ca5e61" linkType="profile">
+              <modifiers/>
+            </link>
+          </links>
+        </entry>
+        <entry id="fedc-fe4c-88ac-04f8" name="Super-heavy Command Tank" points="20.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules>
+            <rule id="b907-c4eb-3a30-5eb1" name="Command Tank" hidden="false" book="Imperial Armour Apocalypse 2013" page="6">
+              <modifiers/>
+            </rule>
+          </rules>
+          <profiles/>
+          <links/>
+        </entry>
+        <entry id="e4a5-b1ed-a63b-93f0" name="Heavy Flamer" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="2" maxSelections="2" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles/>
+          <links>
+            <link id="6edd-ec3f-a846-b1a4" targetId="b61412a1-43a8-3adf-9bbd-61f4555f5c0a" linkType="profile">
+              <modifiers/>
+            </link>
+          </links>
+        </entry>
+        <entry id="d979-4186-1926-abc4" name="Lascannon" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="2" maxSelections="2" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles/>
+          <links>
+            <link id="9e8d-100c-66da-9b3d" targetId="4944e4f5-94fb-d71d-5137-0114b4be41e1" linkType="profile">
+              <modifiers/>
+            </link>
+          </links>
+        </entry>
+        <entry id="e232-fe8a-5d4e-ca64" name="Void Shields" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="2" maxSelections="2" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles>
+            <profile id="478e-8382-2ba4-f80b" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" name="Void Shield" hidden="false" book="40k Apocalypse 2nd Ed" page="0">
+              <characteristics>
+                <characteristic characteristicId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="Each hit scored against the model will instead hit a void shield (whilst they remain). Close combat attacks come from inside the shield and therefore are not stopped. Void shields have an Armour Value of 12. A glancing or penetrating hit (or any hit from a Destroyer weapon) scored against a void shield causes it to collapse. After all the void shields have collapsed, further hits strike the model instead. At the end of each of the controlling player&apos;s turns, roll one dice for each collapsed void  shield: each roll of 5+ instantly restores one collapsed shield."/>
+              </characteristics>
+              <modifiers/>
+            </profile>
+          </profiles>
+          <links/>
+        </entry>
+      </entries>
+      <entryGroups>
+        <entryGroup id="c6c8-f2ed-19a6-a8a7" name="Turret" defaultEntryId="5986-e817-1eb4-778c" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries>
+            <entry id="5986-e817-1eb4-778c" name="Skyreaper Battery" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles>
+                <profile id="34bc-96cb-4742-14c8" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" name="Skyreaper Battery" hidden="false" book="Mastodon-Rules.pdf" page="2">
+                  <characteristics>
+                    <characteristic characteristicId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" name="Range" value="48"/>
+                    <characteristic characteristicId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45" name="Strength" value="7"/>
+                    <characteristic characteristicId="6abee736-f8d3-498e-97ac-a5c68445609f" name="AP" value="4"/>
+                    <characteristic characteristicId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" name="Type" value="Heavy 5, Skyfire, Twin-linked, Interceptor"/>
+                  </characteristics>
+                  <modifiers/>
+                </profile>
+              </profiles>
+              <links/>
+            </entry>
+            <entry id="4894-5428-33ab-49bc" name="Command Vox Relay" points="25.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="" page="0">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles>
+                <profile id="f42b-6429-62d9-d8ed" profileTypeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" name="Command Vox Relay" hidden="false" book="Imperial Armour II 2nd Ed" page="186">
+                  <characteristics>
+                    <characteristic characteristicId="21befb24-fc85-4f52-a745-64b2e48f8228" name="Description" value="May add or subtract 1 from all reserve rolls while on the table"/>
+                  </characteristics>
+                  <modifiers/>
+                </profile>
+              </profiles>
+              <links/>
+            </entry>
+          </entries>
+          <entryGroups/>
+          <modifiers/>
+          <links/>
+        </entryGroup>
+      </entryGroups>
+      <modifiers/>
+      <rules>
+        <rule id="60c2-9890-ac83-ad47" name="Reinforced Shell" hidden="false" book="Mastodon-Rules.pdf" page="2">
+          <description>If a Mastodon is Destroyed, reduce the roll made on the Catastrophic Damage table by -2. If the result rolled is actually &apos;0&apos; or &apos;-1&apos; after this modifier is taken into account, the Mastodon does not Explode, but it instead becomes a broken shell (note that it still counts as being destroyed for the purpose of Victory points or any relevant mission objectives however). Any models transported inside suffer an immediate Strength 4 hit – Vehicles are struck on their weakest Armour value. From this point onwards, its shell is treated as a ruined building rather than a vehicle wreck, with its two doorways counted as being open access points to the interior.</description>
+          <modifiers/>
+        </rule>
+        <rule id="5782-e4b2-6c54-b01e" name="Enhanced Defensive Fire" hidden="false" book="Mastodon-Rules.pdf" page="2">
+          <description>So long as at least one unit occupies the Mastodon, the Mastodon may use Overwatch fire with its sponson-mounted weapons when assaulted. When this is the case, each sponson may be fired once per Assault phase at an assaulting unit within the particular weapon&apos;s arc of fire. In the case of the Mastodon&apos;s lascannon, this Overwatch fire is carried out at BS 2, and in the case of the Mastodon’s heavy flamers, D3+1 automatic hits are inflicted per heavy flamer on the assaulting unit that is fired upon.</description>
+          <modifiers/>
+        </rule>
+      </rules>
+      <profiles>
+        <profile id="debc-80b4-c40b-d6cd" profileTypeId="725a358c-765b-498c-8de5-399fc0c0725f" name="Mastodon" hidden="false" book="Mastodon-Rules.pdf">
+          <characteristics>
+            <characteristic characteristicId="f6f92f00-8bb1-4afa-8ccb-46310b7dd5e5" name="BS" value="4"/>
+            <characteristic characteristicId="8cdd4fef-d1ba-4007-992c-b6f93e86d43f" name="Front" value="14"/>
+            <characteristic characteristicId="5f9a3780-eecb-4c70-be1d-e5bd06b06e9e" name="Side" value="14"/>
+            <characteristic characteristicId="0a9f33cb-0412-420a-89d2-20707c360bd2" name="Rear" value="14"/>
+            <characteristic characteristicId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" name="Type" value="Super-heavy Vehicle, Transport"/>
+            <characteristic characteristicId="ae95a1af-719f-4365-b951-33cd3ca9148a" name="HP" value="10"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links>
+        <link id="cecc-f314-7dbf-8730" targetId="8bb528ac-f996-7c60-68ce-394f932a961a" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="ac41-a868-37ba-72c7" targetId="112e9890-442b-0530-acbc-2fef8d2bce67" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="7c9a-bf31-e498-a121" targetId="7b1222cf-4c4a-3408-2efd-a31a0e3742f9" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="7db3-e0d6-8bd1-b825" targetId="e0adf813-9a05-2c17-bea9-600bc5480a0c" linkType="profile">
+          <modifiers/>
+        </link>
+        <link id="4cd1-6d82-8bee-c829" targetId="812cac35-f9b4-a56e-d7d9-8c930c540606" linkType="profile">
+          <modifiers/>
+        </link>
+        <link id="92cb-18eb-4705-e87a" targetId="c800c5e2-98af-b5e4-b226-1c13a1c72125" linkType="rule">
           <modifiers/>
         </link>
       </links>
@@ -14451,6 +14731,24 @@ If a model with this special rule charges a building or vehicle, the hit is reso
               </profiles>
               <links/>
             </entry>
+            <entry id="8f7a-d645-9216-f448" name="Cyclonic Melta Lance" points="20.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="2" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles>
+                <profile id="648c-c217-d095-2d55" profileTypeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" name="Cyclonic Melta Lance" hidden="false">
+                  <characteristics>
+                    <characteristic characteristicId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464" name="Range" value="18&quot;"/>
+                    <characteristic characteristicId="a6383362-5aa8-4ff0-b1d0-00e059fc9d45" name="Strength" value=""/>
+                    <characteristic characteristicId="6abee736-f8d3-498e-97ac-a5c68445609f" name="AP" value=""/>
+                    <characteristic characteristicId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" name="Type" value="Heavy 3, Melta"/>
+                  </characteristics>
+                  <modifiers/>
+                </profile>
+              </profiles>
+              <links/>
+            </entry>
           </entries>
           <entryGroups/>
           <modifiers/>
@@ -14513,6 +14811,14 @@ If a model with this special rule charges a building or vehicle, the hit is reso
       <links>
         <link id="36ab-d340-7a99-13c7" targetId="f8b7d6ab-57de-4759-01b3-d37c7a935c83" linkType="profile">
           <modifiers/>
+        </link>
+        <link id="d260-7538-9f04-1db1" targetId="7e1805fd-200c-f130-2f4f-66ead8cf33a5" linkType="entry">
+          <modifiers>
+            <modifier type="set" field="maxSelections" value="1.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
         </link>
       </links>
     </entry>
@@ -17084,6 +17390,24 @@ The Warlord Titan&apos;s carapace-mounted weapons may not target models closer t
     <link id="105f-aa4e-a15d-4f0d" targetId="fc08-e447-e49a-24c4" linkType="entry" categoryId="848a6ff2-0def-4c72-8433-ff7da70e6bc7">
       <modifiers/>
     </link>
+    <link id="92bc-d687-d4d4-e915" targetId="d408-e002-ff9b-7c2c" linkType="entry" categoryId="28b94f51-e66b-4096-aa59-0c9df620a77d">
+      <modifiers/>
+    </link>
+    <link id="1940-daa9-af35-2d7d" targetId="d408-e002-ff9b-7c2c" linkType="entry" categoryId="8c73-dac2-10f4-9b50">
+      <modifiers/>
+    </link>
+    <link id="cad3-2c67-5450-fc8f" targetId="ccf3-9775-2216-c8d6" linkType="entry" categoryId="8c73-dac2-10f4-9b50">
+      <modifiers/>
+    </link>
+    <link id="0e84-981e-e666-4927" targetId="ccf3-9775-2216-c8d6" linkType="entry" categoryId="abf5fd55-9ac7-4263-8bc1-a9fb0a8fa6a6">
+      <modifiers/>
+    </link>
+    <link id="23b1-9670-a46a-8384" targetId="df0b-6b5c-856b-ab20" linkType="entry" categoryId="8c73-dac2-10f4-9b50">
+      <modifiers/>
+    </link>
+    <link id="09a3-ee04-64c7-0125" targetId="df0b-6b5c-856b-ab20" linkType="entry" categoryId="c274d0b0-5866-44bc-9810-91c136ae7438">
+      <modifiers/>
+    </link>
   </links>
   <sharedEntries>
     <entry id="913300f6-1b8e-da29-48c9-ce58036ce892" name="&quot;Arjac&apos;s Shieldbrothers&quot;" points="0.0" categoryId="(No Category)" type="unit" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Champions of Fenris">
@@ -17930,6 +18254,48 @@ The Warlord Titan&apos;s carapace-mounted weapons may not target models closer t
           <modifiers/>
         </link>
         <link id="2248a185-f286-a753-5413-7da6d30bed72" targetId="aa9270d8-c94a-1b2c-4cce-532a57653e93" linkType="entry">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
+    <entry id="d408-e002-ff9b-7c2c" name="&quot;Ice Storm Assault Pack&quot;" points="0.0" categoryId="(No Category)" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Death from the Skies" page="126">
+      <entries/>
+      <entryGroups>
+        <entryGroup id="6aef-49ea-1ccf-999b" name="Stormwolves" defaultEntryId="199a-450b-2cb3-f2d9" minSelections="2" maxSelections="2" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <links>
+            <link id="199a-450b-2cb3-f2d9" targetId="5352e828-66c4-837a-3d88-606e87be25f2" linkType="entry">
+              <modifiers/>
+            </link>
+          </links>
+        </entryGroup>
+        <entryGroup id="b916-d0ca-e656-3244" name="Stormfangs" defaultEntryId="4036-c70f-a565-e91d" minSelections="2" maxSelections="2" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <links>
+            <link id="4036-c70f-a565-e91d" targetId="7d3cec99-c2c1-1c49-2cd4-8a60ab420185" linkType="entry">
+              <modifiers/>
+            </link>
+          </links>
+        </entryGroup>
+      </entryGroups>
+      <modifiers/>
+      <rules>
+        <rule id="9a26-c5cc-dc5f-cd02" name="Hailstorm Assault" hidden="false" book="Death from the Skies" page="126">
+          <description>Units that disembark from Flyers in this Wing have the Fleet rule on the turn they disembark, as long as the Wing was in an Attack Pattern when the unit disembarked.</description>
+          <modifiers/>
+        </rule>
+        <rule id="7c49-2486-66fd-47c4" name="Ice Storm" hidden="false" book="Death from the Skies" page="126">
+          <description>If an enemy unit suffers unsaved Wounds from any dispersed helfrost attacks made by two or more models from this Wing, it is frozen until the start of your next turn. A frozen unit cannot voluntarily move in any way and has its Weapon Skill charactersitic reduced to 1.</description>
+          <modifiers/>
+        </rule>
+      </rules>
+      <profiles/>
+      <links>
+        <link id="cff4-b7ca-72be-fb05" targetId="eb48-0c21-ebfb-bd70" linkType="rule">
           <modifiers/>
         </link>
       </links>
@@ -21912,7 +22278,7 @@ The Warlord Titan&apos;s carapace-mounted weapons may not target models closer t
             </link>
           </links>
         </entryGroup>
-        <entryGroup id="a129-c0d1-30ef-4e43" name="Wolf Priest" defaultEntryId="2e53-0543-7bee-b59d" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="true">
+        <entryGroup id="a129-c0d1-30ef-4e43" name="Wolf Priest" defaultEntryId="2e53-0543-7bee-b59d" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries/>
           <entryGroups/>
           <modifiers/>
@@ -26336,6 +26702,18 @@ The Warlord Titan&apos;s carapace-mounted weapons may not target models closer t
         </link>
       </links>
     </entry>
+    <entry id="886c-bc4d-a47d-ab52" name="Sniper Rifle" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="true" hidden="false" page="0">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles/>
+      <links>
+        <link id="fb5c-d05a-c661-8e74" targetId="2b52bee9-f717-69ee-5cd7-fd846bbad89a" linkType="profile">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
     <entry id="75574c25-250a-caa6-1c5e-85e0249643a3" name="Space Marine Bike" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="true" hidden="false" page="0">
       <entries>
         <entry id="b09f038f-9ca5-2f7f-cd7f-0352cd1328ef" name="Twin-linked Bolter" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="true" hidden="false" page="0">
@@ -26360,6 +26738,18 @@ The Warlord Titan&apos;s carapace-mounted weapons may not target models closer t
           <modifiers/>
         </link>
         <link id="3c6d3cdd-f7ef-affc-9356-8eb7e859b8b7" targetId="e419b169-b2cc-88b0-1b87-34a329d99a2b" linkType="rule">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
+    <entry id="7d4c-b866-8474-da6c" name="Space Marine Shotgun" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="true" hidden="false" page="0">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles/>
+      <links>
+        <link id="8c42-05ed-16c7-5dba" targetId="1264b18b-4376-960a-749e-8eee34a89040" linkType="profile">
           <modifiers/>
         </link>
       </links>
@@ -26448,7 +26838,7 @@ The Warlord Titan&apos;s carapace-mounted weapons may not target models closer t
         </link>
       </links>
     </entry>
-    <entry id="7d3cec99-c2c1-1c49-2cd4-8a60ab420185" name="Stormfang Gunship" points="220.0" categoryId="(No Category)" type="model" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Codex: Space Wolves" page="80">
+    <entry id="7d3cec99-c2c1-1c49-2cd4-8a60ab420185" name="Stormfang Gunship" points="220.0" categoryId="(No Category)" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Codex: Space Wolves" page="80">
       <entries>
         <entry id="12223997-6749-6eac-29ce-c342aa6ce7cb" name="Helfrost Destructor" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
           <entries/>
@@ -26569,7 +26959,30 @@ The Warlord Titan&apos;s carapace-mounted weapons may not target models closer t
         </link>
       </links>
     </entry>
-    <entry id="5352e828-66c4-837a-3d88-606e87be25f2" name="Stormwolf" points="215.0" categoryId="(No Category)" type="model" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Codex: Space Wolves" page="75">
+    <entry id="ccf3-9775-2216-c8d6" name="Stormfang Gunship Wing" points="0.0" categoryId="(No Category)" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Death from the Skies">
+      <entries/>
+      <entryGroups>
+        <entryGroup id="5a76-c4a3-4bed-d62c" name="Stormfangs - 2 to 4" defaultEntryId="7cb1-2f36-a582-ed2a" minSelections="2" maxSelections="4" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <links>
+            <link id="7cb1-2f36-a582-ed2a" targetId="7d3cec99-c2c1-1c49-2cd4-8a60ab420185" linkType="entry">
+              <modifiers/>
+            </link>
+          </links>
+        </entryGroup>
+      </entryGroups>
+      <modifiers/>
+      <rules/>
+      <profiles/>
+      <links>
+        <link id="a512-c2e1-53c8-5aae" targetId="eb48-0c21-ebfb-bd70" linkType="rule">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
+    <entry id="5352e828-66c4-837a-3d88-606e87be25f2" name="Stormwolf" points="215.0" categoryId="(No Category)" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Codex: Space Wolves" page="75">
       <entries>
         <entry id="19645e99-c218-16d7-1858-1501e96b8390" name="Twin-linked Helfrost Cannon" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
           <entries/>
@@ -26661,6 +27074,29 @@ The Warlord Titan&apos;s carapace-mounted weapons may not target models closer t
           <modifiers/>
         </link>
         <link id="43aeea39-0ddf-37ca-fa7b-79a7da0765a1" targetId="70f80873-35ce-7c81-33e5-6da2d0253a31" linkType="entry">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
+    <entry id="df0b-6b5c-856b-ab20" name="Stormwolf Flyer Wing" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Death from the Skies">
+      <entries/>
+      <entryGroups>
+        <entryGroup id="a7ff-e0b3-1ef2-f0e9" name="Stormwolves - 2 to 4" defaultEntryId="32ac-4b74-9038-ea5e" minSelections="2" maxSelections="4" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <links>
+            <link id="32ac-4b74-9038-ea5e" targetId="5352e828-66c4-837a-3d88-606e87be25f2" linkType="entry">
+              <modifiers/>
+            </link>
+          </links>
+        </entryGroup>
+      </entryGroups>
+      <modifiers/>
+      <rules/>
+      <profiles/>
+      <links>
+        <link id="c0bf-7ab1-d018-a2a6" targetId="eb48-0c21-ebfb-bd70" linkType="rule">
           <modifiers/>
         </link>
       </links>
@@ -34650,7 +35086,7 @@ The Warlord Titan&apos;s carapace-mounted weapons may not target models closer t
                 </modifier>
               </modifiers>
             </link>
-            <link id="0457-ff07-ac90-7c49" targetId="a8d2-8ef8-07ba-b5b3" linkType="entry group">
+            <link id="0457-ff07-ac90-7c49" targetId="a997-e787-2cda-6eb1" linkType="entry group">
               <modifiers/>
             </link>
             <link id="5a90-839b-ef9b-27df" targetId="f3aee269-2f69-f57e-eaea-6a91ac502357" linkType="entry">
@@ -35608,7 +36044,7 @@ The Warlord Titan&apos;s carapace-mounted weapons may not target models closer t
                 <link id="293ae8fe-8e61-e4be-d227-9286d411b2ae" targetId="5a2ea81e-b2dc-c9f1-b755-16fa94f7f90e" linkType="entry">
                   <modifiers/>
                 </link>
-                <link id="4b25f89e-7b92-e9be-d633-e4376139c1bb" targetId="d791dd4c-fba5-7cb5-cee6-3dfbea870a14" linkType="entry">
+                <link id="4b25f89e-7b92-e9be-d633-e4376139c1bb" targetId="85d2dada-b527-d574-f923-56ea9f013e6d" linkType="profile">
                   <modifiers/>
                 </link>
               </links>
@@ -36280,11 +36716,11 @@ The Warlord Titan&apos;s carapace-mounted weapons may not target models closer t
             <characteristic characteristicId="f6f92f00-8bb1-4afa-8ccb-46310b7dd5e5" name="BS" value="5"/>
             <characteristic characteristicId="da036dbb-32c2-430a-9dd5-aa74e0c4f74b" name="S" value="4"/>
             <characteristic characteristicId="3f9ed75c-36cd-4169-9cef-48391bb55cfd" name="T" value="4"/>
-            <characteristic characteristicId="17ee558f-3014-4bd2-afc1-b474d8d2b7a8" name="W" value="2"/>
+            <characteristic characteristicId="17ee558f-3014-4bd2-afc1-b474d8d2b7a8" name="W" value="3"/>
             <characteristic characteristicId="a558b3ef-04d0-440e-a312-bac3255bf592" name="I" value="5"/>
             <characteristic characteristicId="5dff3e7c-e024-4030-a71d-03195ec06ea7" name="A" value="4"/>
             <characteristic characteristicId="4a42059d-12cd-4c1f-a4c7-bb569d13eeea" name="Ld" value="10"/>
-            <characteristic characteristicId="b215fe72-dbce-4ad6-89ec-c4bb3962c39d" name="Save" value="2+"/>
+            <characteristic characteristicId="b215fe72-dbce-4ad6-89ec-c4bb3962c39d" name="Save" value="3+"/>
           </characteristics>
           <modifiers/>
         </profile>
@@ -36609,6 +37045,10 @@ The Warlord Titan&apos;s carapace-mounted weapons may not target models closer t
           <entryGroups/>
           <modifiers>
             <modifier type="increment" field="points" value="2.0" repeat="true" numRepeats="1" incrementParentId="d3fcce5e-7b98-42b8-92e5-23e0f56cd4d9" incrementChildId="449f9427-2166-9161-1567-ac1eb6bb08ab" incrementField="selections" incrementValue="1.0">
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="decrement" field="points" value="2.0" repeat="true" numRepeats="1" incrementParentId="d3fcce5e-7b98-42b8-92e5-23e0f56cd4d9" incrementChildId="e35e-1b80-ef19-aea5" incrementField="selections" incrementValue="1.0">
               <conditions/>
               <conditionGroups/>
             </modifier>
@@ -37388,30 +37828,6 @@ Models in affected units add 1 to their Attack characteristic.</description>
       </rules>
       <profiles/>
       <links/>
-    </entry>
-    <entry id="7d4c-b866-8474-da6c" name="Space Marine Shotgun" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="true" hidden="false" page="0">
-      <entries/>
-      <entryGroups/>
-      <modifiers/>
-      <rules/>
-      <profiles/>
-      <links>
-        <link id="8c42-05ed-16c7-5dba" targetId="1264b18b-4376-960a-749e-8eee34a89040" linkType="profile">
-          <modifiers/>
-        </link>
-      </links>
-    </entry>
-    <entry id="886c-bc4d-a47d-ab52" name="Sniper Rifle" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="true" hidden="false" page="0">
-      <entries/>
-      <entryGroups/>
-      <modifiers/>
-      <rules/>
-      <profiles/>
-      <links>
-        <link id="fb5c-d05a-c661-8e74" targetId="2b52bee9-f717-69ee-5cd7-fd846bbad89a" linkType="profile">
-          <modifiers/>
-        </link>
-      </links>
     </entry>
   </sharedEntries>
   <sharedEntryGroups>
@@ -38204,6 +38620,9 @@ Models in affected units add 1 to their Attack characteristic.</description>
             <link id="e74c2316-ea68-73c5-876f-8a1adf8fbe35" targetId="96f0f59a-7a00-6ed0-cbde-b243cb7fd14f" linkType="rule">
               <modifiers/>
             </link>
+            <link id="4218-393e-7641-3ee0" targetId="f9d2bc2a-a97d-d31a-6248-8c3e5bda2080" linkType="rule">
+              <modifiers/>
+            </link>
           </links>
         </entry>
         <entry id="d6093156-5327-6924-b78e-81d88b9ff13d" name="Rune Sword" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
@@ -38219,6 +38638,9 @@ Models in affected units add 1 to their Attack characteristic.</description>
             <link id="4f885b60-13c6-7a08-8701-957e3cd894dc" targetId="96f0f59a-7a00-6ed0-cbde-b243cb7fd14f" linkType="rule">
               <modifiers/>
             </link>
+            <link id="c150-04b3-4ec8-3376" targetId="f9d2bc2a-a97d-d31a-6248-8c3e5bda2080" linkType="rule">
+              <modifiers/>
+            </link>
           </links>
         </entry>
         <entry id="69bf6a48-8dd3-be35-824e-7c13277d2906" name="Rune Axe" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
@@ -38232,6 +38654,9 @@ Models in affected units add 1 to their Attack characteristic.</description>
               <modifiers/>
             </link>
             <link id="a2289251-4f16-7a3d-7453-ae11cc833032" targetId="96f0f59a-7a00-6ed0-cbde-b243cb7fd14f" linkType="rule">
+              <modifiers/>
+            </link>
+            <link id="76f9-77d1-93a3-7e7b" targetId="f9d2bc2a-a97d-d31a-6248-8c3e5bda2080" linkType="rule">
               <modifiers/>
             </link>
           </links>
@@ -43293,6 +43718,409 @@ Models in affected units add 1 to their Attack characteristic.</description>
       <modifiers/>
       <links/>
     </entryGroup>
+    <entryGroup id="a997-e787-2cda-6eb1" name="WG Pack Leader Weapons (Wolf Guard)" minSelections="1" maxSelections="2" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups>
+        <entryGroup id="3bcc-07ad-49ad-9d38" name="Weapon 1" defaultEntryId="4ffc-4984-5240-9740" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries>
+            <entry id="4ffc-4984-5240-9740" name="Bolt Pistol" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles/>
+              <links>
+                <link id="3b49-ac66-d7b5-b8c7" targetId="82de7a82-9e87-8dc1-6d88-fbe1ee0c024c" linkType="profile">
+                  <modifiers/>
+                </link>
+              </links>
+            </entry>
+            <entry id="0efa-3805-635e-2b13" name="Combi Flamer" points="10.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles/>
+              <links>
+                <link id="d34c-5c5b-f65e-e7f4" targetId="b9acf151-1b3a-6d61-fc07-074c4ed705f2" linkType="profile">
+                  <modifiers/>
+                </link>
+                <link id="8b30-0fa2-dd77-fdc4" targetId="df2c46a5-cbaa-46c8-c4e6-fa4c1f30df51" linkType="profile">
+                  <modifiers/>
+                </link>
+                <link id="58d6-cd13-35b5-0c82" targetId="06d73e79-f635-f39c-d438-9ac3c7929b21" linkType="profile">
+                  <modifiers/>
+                </link>
+              </links>
+            </entry>
+            <entry id="4ad0-c04b-2cd0-5fec" name="Combi Melta" points="10.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles/>
+              <links>
+                <link id="58b1-8321-bafd-c5cd" targetId="b9acf151-1b3a-6d61-fc07-074c4ed705f2" linkType="profile">
+                  <modifiers/>
+                </link>
+                <link id="238e-4d58-bc0b-02dd" targetId="df2c46a5-cbaa-46c8-c4e6-fa4c1f30df51" linkType="profile">
+                  <modifiers/>
+                </link>
+                <link id="1e39-60b6-30b6-9040" targetId="87a24fa9-2897-5df2-8bd7-dbd7f6ee9ead" linkType="profile">
+                  <modifiers/>
+                </link>
+              </links>
+            </entry>
+            <entry id="b8f8-cefb-6868-97a8" name="Combi Plasma" points="10.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles/>
+              <links>
+                <link id="2936-8c77-8bf2-3905" targetId="b9acf151-1b3a-6d61-fc07-074c4ed705f2" linkType="profile">
+                  <modifiers/>
+                </link>
+                <link id="f555-977a-bcf6-4a6e" targetId="df2c46a5-cbaa-46c8-c4e6-fa4c1f30df51" linkType="profile">
+                  <modifiers/>
+                </link>
+                <link id="d36f-f50e-d09c-862e" targetId="06d67607-bdf1-ff59-f570-9935f592255e" linkType="profile">
+                  <modifiers/>
+                </link>
+              </links>
+            </entry>
+            <entry id="de55-6499-c011-8b57" name="Plasma Pistol" points="15.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles/>
+              <links>
+                <link id="11ec-2008-bbb8-07c2" targetId="5e3d402f-87bd-b6a1-e5b0-20c3fc1df6c2" linkType="profile">
+                  <modifiers/>
+                </link>
+              </links>
+            </entry>
+            <entry id="460a-540c-6fcc-aec1" name="Storm Bolter" points="5.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles/>
+              <links>
+                <link id="110a-64ed-5fcf-6263" targetId="a2da2b98-1a14-9a16-f860-077c1544545d" linkType="profile">
+                  <modifiers/>
+                </link>
+              </links>
+            </entry>
+            <entry id="a007-a7d9-4323-ce7c" name="Frost Axe" points="20.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles/>
+              <links>
+                <link id="65c0-2fac-4d02-087a" targetId="8a52ed78-8139-b06a-2f9e-c574962705b6" linkType="profile">
+                  <modifiers/>
+                </link>
+              </links>
+            </entry>
+            <entry id="b1a8-4608-2700-fe17" name="Power Sword" points="15.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles/>
+              <links>
+                <link id="b1d9-67c4-d384-4329" targetId="8ac9b561-512c-7d0d-8dcc-aa07e0bde4b9" linkType="profile">
+                  <modifiers/>
+                </link>
+              </links>
+            </entry>
+            <entry id="ebca-450d-7782-54a7" name="Storm Shield" points="15.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles/>
+              <links>
+                <link id="e3f3-a3c9-4c6c-a060" targetId="4d818034-4bf4-6fbf-b1ea-408b69ef1843" linkType="profile">
+                  <modifiers/>
+                </link>
+              </links>
+            </entry>
+            <entry id="fb80-c4bc-670b-8683" name="Thunder Hammer" points="30.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles/>
+              <links>
+                <link id="af7c-631e-1a1c-57d6" targetId="85d2dada-b527-d574-f923-56ea9f013e6d" linkType="profile">
+                  <modifiers/>
+                </link>
+              </links>
+            </entry>
+            <entry id="8693-c9bd-1e04-c9d1" name="Wolf Claw" points="20.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
+              <entries/>
+              <entryGroups/>
+              <modifiers>
+                <modifier type="decrement" field="points" value="5.0" repeat="true" numRepeats="1" incrementParentId="a997-e787-2cda-6eb1" incrementChildId="bfe1-7d80-6215-491e" incrementField="selections" incrementValue="1.0">
+                  <conditions/>
+                  <conditionGroups/>
+                </modifier>
+              </modifiers>
+              <rules/>
+              <profiles/>
+              <links>
+                <link id="740f-221b-3ec1-fcd9" targetId="3d5883da-d159-4a14-2e67-9bcb4b8e365a" linkType="profile">
+                  <modifiers/>
+                </link>
+              </links>
+            </entry>
+            <entry id="17cd-cfd1-9f5e-8903" name="Power Fist" points="25.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles/>
+              <links>
+                <link id="8ee8-beed-fc92-df1a" targetId="d79fcca2-19d9-3218-96f2-78edca3fe208" linkType="profile">
+                  <modifiers/>
+                </link>
+              </links>
+            </entry>
+            <entry id="f662-4d5a-2733-f676" name="Frost Sword" points="20.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles/>
+              <links>
+                <link id="fc44-4fda-f0db-d0f4" targetId="d67e53dc-70e3-ddef-bb9a-35f623ad99a7" linkType="profile">
+                  <modifiers/>
+                </link>
+              </links>
+            </entry>
+            <entry id="977e-6aa6-6e5c-76f4" name="Bolter" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles/>
+              <links>
+                <link id="76aa-361a-ff8d-cb8f" targetId="df2c46a5-cbaa-46c8-c4e6-fa4c1f30df51" linkType="profile">
+                  <modifiers/>
+                </link>
+              </links>
+            </entry>
+          </entries>
+          <entryGroups/>
+          <modifiers/>
+          <links/>
+        </entryGroup>
+        <entryGroup id="02fc-70f5-4a29-ece7" name="Weapon 2" defaultEntryId="abd1-2430-8c91-fcdc" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries>
+            <entry id="41ec-3dcd-8005-a5dc" name="Combi Flamer" points="10.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles/>
+              <links>
+                <link id="bc3c-f81e-955c-a879" targetId="b9acf151-1b3a-6d61-fc07-074c4ed705f2" linkType="profile">
+                  <modifiers/>
+                </link>
+                <link id="d745-3048-3613-9fe5" targetId="df2c46a5-cbaa-46c8-c4e6-fa4c1f30df51" linkType="profile">
+                  <modifiers/>
+                </link>
+                <link id="3ba8-1c29-cffd-cc6e" targetId="06d73e79-f635-f39c-d438-9ac3c7929b21" linkType="profile">
+                  <modifiers/>
+                </link>
+              </links>
+            </entry>
+            <entry id="a29d-1a20-f452-2f99" name="Combi Melta" points="10.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles/>
+              <links>
+                <link id="536a-390b-48f8-d9cf" targetId="b9acf151-1b3a-6d61-fc07-074c4ed705f2" linkType="profile">
+                  <modifiers/>
+                </link>
+                <link id="ae90-80a4-623e-dd85" targetId="df2c46a5-cbaa-46c8-c4e6-fa4c1f30df51" linkType="profile">
+                  <modifiers/>
+                </link>
+                <link id="f44c-ffb4-cc38-b3b4" targetId="87a24fa9-2897-5df2-8bd7-dbd7f6ee9ead" linkType="profile">
+                  <modifiers/>
+                </link>
+              </links>
+            </entry>
+            <entry id="edbe-e912-1cbd-f143" name="Combi Plasma" points="10.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles/>
+              <links>
+                <link id="aadd-bc0c-f469-0de1" targetId="b9acf151-1b3a-6d61-fc07-074c4ed705f2" linkType="profile">
+                  <modifiers/>
+                </link>
+                <link id="be2f-327b-8c4c-6dd5" targetId="df2c46a5-cbaa-46c8-c4e6-fa4c1f30df51" linkType="profile">
+                  <modifiers/>
+                </link>
+                <link id="51a5-74b8-8f4d-aadc" targetId="06d67607-bdf1-ff59-f570-9935f592255e" linkType="profile">
+                  <modifiers/>
+                </link>
+              </links>
+            </entry>
+            <entry id="e118-847d-1fb8-47a7" name="Frost Axe" points="20.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles/>
+              <links>
+                <link id="0dd1-7144-b403-1ec4" targetId="8a52ed78-8139-b06a-2f9e-c574962705b6" linkType="profile">
+                  <modifiers/>
+                </link>
+              </links>
+            </entry>
+            <entry id="c6e8-6565-e673-4c86" name="Frost Sword" points="20.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles/>
+              <links>
+                <link id="4acc-0169-fbd8-6483" targetId="d67e53dc-70e3-ddef-bb9a-35f623ad99a7" linkType="profile">
+                  <modifiers/>
+                </link>
+              </links>
+            </entry>
+            <entry id="62c7-7cb7-2ab6-1259" name="Plasma Pistol" points="15.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles/>
+              <links>
+                <link id="b09c-3671-0776-f325" targetId="5e3d402f-87bd-b6a1-e5b0-20c3fc1df6c2" linkType="profile">
+                  <modifiers/>
+                </link>
+              </links>
+            </entry>
+            <entry id="33eb-811f-b8ea-6583" name="Power Fist" points="25.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles/>
+              <links>
+                <link id="0002-9df4-1b93-2970" targetId="d79fcca2-19d9-3218-96f2-78edca3fe208" linkType="profile">
+                  <modifiers/>
+                </link>
+              </links>
+            </entry>
+            <entry id="d67d-d344-f716-1c1d" name="Power Sword" points="15.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles/>
+              <links>
+                <link id="56b5-f385-297e-d602" targetId="8ac9b561-512c-7d0d-8dcc-aa07e0bde4b9" linkType="profile">
+                  <modifiers/>
+                </link>
+              </links>
+            </entry>
+            <entry id="38e5-5110-cc43-e783" name="Storm Bolter" points="5.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles/>
+              <links>
+                <link id="9d30-2cf8-090f-5a92" targetId="a2da2b98-1a14-9a16-f860-077c1544545d" linkType="profile">
+                  <modifiers/>
+                </link>
+              </links>
+            </entry>
+            <entry id="85b6-ff60-9d1f-b9de" name="Storm Shield" points="15.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles/>
+              <links>
+                <link id="c6ef-3b54-02f2-6924" targetId="4d818034-4bf4-6fbf-b1ea-408b69ef1843" linkType="profile">
+                  <modifiers/>
+                </link>
+              </links>
+            </entry>
+            <entry id="ed96-4228-504c-999d" name="Thunder Hammer" points="30.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles/>
+              <links>
+                <link id="1d1a-58ae-0b4c-a239" targetId="85d2dada-b527-d574-f923-56ea9f013e6d" linkType="profile">
+                  <modifiers/>
+                </link>
+              </links>
+            </entry>
+            <entry id="bfe1-7d80-6215-491e" name="Wolf Claw" points="20.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
+              <entries/>
+              <entryGroups/>
+              <modifiers>
+                <modifier type="decrement" field="points" value="5.0" repeat="true" numRepeats="1" incrementParentId="a997-e787-2cda-6eb1" incrementChildId="8693-c9bd-1e04-c9d1" incrementField="selections" incrementValue="1.0">
+                  <conditions/>
+                  <conditionGroups/>
+                </modifier>
+              </modifiers>
+              <rules/>
+              <profiles/>
+              <links>
+                <link id="02e8-c16d-3623-6b5e" targetId="3d5883da-d159-4a14-2e67-9bcb4b8e365a" linkType="profile">
+                  <modifiers/>
+                </link>
+              </links>
+            </entry>
+            <entry id="abd1-2430-8c91-fcdc" name="Chainsword" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles/>
+              <links>
+                <link id="824b-45b9-0023-2d97" targetId="b5a15a10-378a-f59e-80a7-090b5c95a19d" linkType="profile">
+                  <modifiers/>
+                </link>
+              </links>
+            </entry>
+            <entry id="34f5-0f71-e76b-42dc" name="Bolter" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles/>
+              <links>
+                <link id="5aae-cc8c-727f-8787" targetId="df2c46a5-cbaa-46c8-c4e6-fa4c1f30df51" linkType="profile">
+                  <modifiers/>
+                </link>
+              </links>
+            </entry>
+          </entries>
+          <entryGroups/>
+          <modifiers/>
+          <links/>
+        </entryGroup>
+      </entryGroups>
+      <modifiers/>
+      <links/>
+    </entryGroup>
     <entryGroup id="dbfadb43-5895-99d0-6137-918265fcfa8a" name="Wolf Guard Terminators Transport" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries/>
       <entryGroups/>
@@ -43795,7 +44623,7 @@ Having Infiltrate also confers the Outflank special rule to units of Infiltrator
       <modifiers/>
     </rule>
     <rule id="1fca63c8-617f-5a94-544f-bd0ee6cc1cf6" name="Kingsguard (formation)" hidden="false" book="Champions of Fenris">
-      <description>The following Strike Force Daggerfist models have +1 Weapon Skill already included on profile:
+      <description>The following models in this Formation have +1 Weapon Skill already included on profile:
 
 - Wolf Guard
 - Wolf Guard Pack Leader
@@ -44389,7 +45217,8 @@ At the beginning of every subsequent player turn, the marker scatters 2D6&quot; 
       <description>Ragnar and all models with the Space Wolves Faction in his unit have the Furious Charge special rule.</description>
       <modifiers/>
     </rule>
-    <rule id="96f0f59a-7a00-6ed0-cbde-b243cb7fd14f" name="Ward" hidden="false" book="Codex: Space Wolves" page="52">
+    <rule id="96f0f59a-7a00-6ed0-cbde-b243cb7fd14f" name="Ward" hidden="false" book="Codex: Space Wolves" page="97">
+      <description>A model Equipped with this weapon has the Adamantium Will special rule.</description>
       <modifiers/>
     </rule>
     <rule id="d0738c1d-db35-3198-45a4-cbc753ead8fd" name="Ward of the Primarch" hidden="false" book="Codex: Space Wolves" page="57">
@@ -44486,6 +45315,16 @@ The Warlord, and all friendly units with the Space Wolves Faction within 12&quot
     </rule>
     <rule id="4d5b7a3e-5557-654a-2dfd-5f352aaebb80" name="Whirlwind of Death" hidden="false" book="Codex: Space Wolves">
       <description>The bearer of Black Death gains +3 Attacks for the duration of any Fight Sub-phase in which he is locked in a combat that contains more enemy models than friendly ones.</description>
+      <modifiers/>
+    </rule>
+    <rule id="eb48-0c21-ebfb-bd70" name="Wing Leader (Space Wolves)" hidden="false" book="Death from the Skies" page="79">
+      <description>Wing Leaders are free upgrades for Flyers. One model in each Flyer Wing can be upgraded to a Wing Leader at no additional points cost. At the start of any game, immediately after determining your Warlord Trait, roll on the Wing Leader table relevant to their Faction for each Wing Leader to determine their special rule.
+
+1-2 Seeker of Glory: Add 1 to the Pursuit and Agility values of this Wing Leader in a Dogfight.
+
+3-4 Wyrmslayer: The Wing Leader has the Monster Hunter special rule.
+
+5-6 Lord of Iron: At the start of each of your turns, roll a dice for each Hull Point that the Wing Leader’s Flyer has lost. On a roll of 4 or more the Hull Point is restored.</description>
       <modifiers/>
     </rule>
     <rule id="f1255dbe-9dad-6525-34bb-120283a30a85" name="Wise Council" hidden="false" book="Champions of Fenris">
@@ -44694,7 +45533,7 @@ The Warlord, and all friendly units with the Space Wolves Faction within 12&quot
         <characteristic characteristicId="5f9a3780-eecb-4c70-be1d-e5bd06b06e9e" name="Side" value="12"/>
         <characteristic characteristicId="0a9f33cb-0412-420a-89d2-20707c360bd2" name="Rear" value="10"/>
         <characteristic characteristicId="a558b3ef-04d0-440e-a312-bac3255bf592" name="I" value="3"/>
-        <characteristic characteristicId="5dff3e7c-e024-4030-a71d-03195ec06ea7" name="A" value="4"/>
+        <characteristic characteristicId="5dff3e7c-e024-4030-a71d-03195ec06ea7" name="A" value="6"/>
         <characteristic characteristicId="ae95a1af-719f-4365-b951-33cd3ca9148a" name="HP" value="3"/>
         <characteristic characteristicId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" name="Type" value="Walker (Character)"/>
       </characteristics>
@@ -45130,7 +45969,7 @@ The Warlord, and all friendly units with the Space Wolves Faction within 12&quot
         <characteristic characteristicId="5f9a3780-eecb-4c70-be1d-e5bd06b06e9e" name="Side" value="12"/>
         <characteristic characteristicId="0a9f33cb-0412-420a-89d2-20707c360bd2" name="Rear" value="10"/>
         <characteristic characteristicId="a558b3ef-04d0-440e-a312-bac3255bf592" name="I" value="4"/>
-        <characteristic characteristicId="5dff3e7c-e024-4030-a71d-03195ec06ea7" name="A" value="2"/>
+        <characteristic characteristicId="5dff3e7c-e024-4030-a71d-03195ec06ea7" name="A" value="4"/>
         <characteristic characteristicId="ae95a1af-719f-4365-b951-33cd3ca9148a" name="HP" value="3"/>
         <characteristic characteristicId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" name="Type" value="Walker"/>
       </characteristics>
@@ -46196,7 +47035,7 @@ The Warlord, and all friendly units with the Space Wolves Faction within 12&quot
         <characteristic characteristicId="5f9a3780-eecb-4c70-be1d-e5bd06b06e9e" name="Side" value="12"/>
         <characteristic characteristicId="0a9f33cb-0412-420a-89d2-20707c360bd2" name="Rear" value="10"/>
         <characteristic characteristicId="a558b3ef-04d0-440e-a312-bac3255bf592" name="I" value="4"/>
-        <characteristic characteristicId="5dff3e7c-e024-4030-a71d-03195ec06ea7" name="A" value="4"/>
+        <characteristic characteristicId="5dff3e7c-e024-4030-a71d-03195ec06ea7" name="A" value="6"/>
         <characteristic characteristicId="ae95a1af-719f-4365-b951-33cd3ca9148a" name="HP" value="3"/>
         <characteristic characteristicId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" name="Type" value="Walker (Character)"/>
       </characteristics>
@@ -47341,7 +48180,7 @@ The Warlord, and all friendly units with the Space Wolves Faction within 12&quot
         <characteristic characteristicId="5f9a3780-eecb-4c70-be1d-e5bd06b06e9e" name="Side" value="12"/>
         <characteristic characteristicId="0a9f33cb-0412-420a-89d2-20707c360bd2" name="Rear" value="10"/>
         <characteristic characteristicId="a558b3ef-04d0-440e-a312-bac3255bf592" name="I" value="4"/>
-        <characteristic characteristicId="5dff3e7c-e024-4030-a71d-03195ec06ea7" name="A" value="2"/>
+        <characteristic characteristicId="5dff3e7c-e024-4030-a71d-03195ec06ea7" name="A" value="4"/>
         <characteristic characteristicId="ae95a1af-719f-4365-b951-33cd3ca9148a" name="HP" value="3"/>
         <characteristic characteristicId="077c342f-d7b9-45c6-b8af-88e97cafd3a2" name="Type" value="Walker"/>
       </characteristics>
